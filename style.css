@@ -8,3 +8,18 @@
     --szekrenyszurke: rgb(140, 162, 184);
     --kolbaszzsirsarga: rgb(82, 153, 195);
 }
+
+body{
+    background-color: var(--szekrenyszurke);
+}
+
+.kep{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+.item {
+	padding: 20px;
+	text-align: center;
+}
