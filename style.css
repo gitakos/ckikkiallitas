@@ -27,6 +27,7 @@ body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   background-color: lightblue;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dreamtemplate.com%2Fdreamcodes%2Fbg_images%2Fcolor%2Fc12.jpg&f=1&nofb=1&ipt=f9ad211750620d78714aa17c2b4757ad5d50ca8f2c6d3a9e2b58b3e41bea7138&ipo=images);
 }
   
 .logo {
@@ -149,25 +150,32 @@ img {
   margin: 0px 0px 15px 20px;
   size: 30%;
 }
+.table-wrapper{
+  margin: 0px 40px 40px;
+}
+
 table {
-  font-family: arial, sans-serif;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: normal;
   border-collapse: collapse;
   width: 100%;
+  max-width: 100%;
+  background-color: white;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
 }
 
 header{
   text-align: center;
   margin: 20px;
+}
+header h1{
+  background-color: var(--feher);
+  border-radius: 10px;
 }
 
 .sidenav {
@@ -193,8 +201,16 @@ header{
   background-color: var(--kijelolesszurke);
 }
 
-/* @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .sidenav {
       display: none;
   }
-} */
+}
+.col-6{
+  background-color: var(--feher);
+  border-radius: 10px;
+  padding: 10px;
+}
+.col-6 p{
+  text-align: center;
+}
