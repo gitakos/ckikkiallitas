@@ -1,115 +1,118 @@
 :root{
-  --zoldessarga : rgb(244, 255, 214);
-  --kekesfeher: rgb(237, 255, 253);
-  --kekes: rgb(160, 193, 190);
-  --nagyonkek: rgb(155, 241, 255);
-  --sotetebbkek: rgb(82, 153, 195);
-  --melegfeher: rgb(255, 247, 228);
-  --szekrenyszurke: rgb(140, 162, 184);
-  --kolbaszzsirsarga: rgb(181, 199, 144);
-  --feher:#fff;
-  --sotetkek : rgb(34, 47, 51);
-  --kijelolesszurke: rgb(94, 94, 94);
-}
+    --zoldessarga : rgb(244, 255, 214);
+    --kekesfeher: rgb(237, 255, 253);
+    --kekes: rgb(160, 193, 190);
+    --nagyonkek: rgb(155, 241, 255);
+    --sotetebbkek: rgb(82, 153, 195);
+    --melegfeher: rgb(255, 247, 228);
+    --szekrenyszurke: rgb(140, 162, 184);
+    --kolbaszzsirsarga: rgb(181, 199, 144);
+    --feher:#fff;
+    --sotetkek : rgb(34, 47, 51);
+    --kijelolesszurke: rgb(94, 94, 94);
+  }
+  
+  
+  body{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightblue;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dreamtemplate.com%2Fdreamcodes%2Fbg_images%2Fcolor%2Fc12.jpg&f=1&nofb=1&ipt=f9ad211750620d78714aa17c2b4757ad5d50ca8f2c6d3a9e2b58b3e41bea7138&ipo=images);
+  }
+  
+  
+  
+  .sidenav{
+  width: 15%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--sotetkek);
+  }
+  
+  
+  .sidenav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--kekesfeher);
+  display: block;
+  border-bottom: var(--feher) solid;
+  }
+  
+  .sidenav a:hover {
+  color: var(--zoldessarga);
+  background-color: var(--kijelolesszurke);
+  }
+  
+  .kep{
+  align-content: flex-start;
+  width:fit-content;
+  }
+  
+  h2{
+  font-size: larger;
+  text-align: center;
+  }
+  
+  
+  img {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+  }
+  
 
+  
+  table {
 
-body{
-box-sizing: border-box;
-font-family: 'Montserrat', sans-serif;
-background-color: lightblue;
-background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dreamtemplate.com%2Fdreamcodes%2Fbg_images%2Fcolor%2Fc12.jpg&f=1&nofb=1&ipt=f9ad211750620d78714aa17c2b4757ad5d50ca8f2c6d3a9e2b58b3e41bea7138&ipo=images);
-}
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: normal;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  }
+  
+  td, th {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid var(--kijelolesszurke);
+  }
+  tr:hover {
+  background-color: var(--szekrenyszurke);
+  }
 
-
-
-.sidenav{
-width: 15%;
-height: 100vh;
-text-align: center;
-padding-top: 20px;
-position: fixed;
-top: 0;
-left: 0;
-background-color: var(--sotetkek);
-}
-
-
-.sidenav a {
-padding: 10px;
-text-decoration: none;
-font-size: 18px;
-color: var(--kekesfeher);
-display: block;
-border-bottom: var(--feher) solid;
-}
-
-.sidenav a:hover {
-color: var(--zoldessarga);
-background-color: var(--kijelolesszurke);
-}
-
-.kep{
-align-content: flex-start;
-width:fit-content;
-}
-
-h2{
-font-size: larger;
-text-align: center;
-}
-
-
-img {
-float: right;
-border: 1px dotted black;
-margin: 0px 0px 15px 20px;
-}
-
-.table-wrapper{
-margin: 0px 40px 40px;
-}
-
-table {
-border-radius: 10px;
-font-size: 12px;
-font-weight: normal;
-border-collapse: collapse;
-width: 100%;
-max-width: 100%;
-background-color: white;
-}
-
-td, th {
-text-align: center;
-padding: 8px;
-}
-
-header{
-text-align: center;
-}
-
-header h1{
-background-color: var(--feher);
-border-radius: 10px;
-margin: 20px 20px 20px 16.7%
-}
-
-
-@media screen and (max-width: 990px) {
-.sidenav {
-  display: none;
-}
-/* .header{
-  margin: 20px !important;   Nem akarja a margint átváltani, majd meg kell nézni miért(Azért kell mert bemegy a sidenav alá a szoveg háttere alapból, ezért elöbb kihuztam marginnal de ha a sidenav eltunik vissza kellene mennie az oldal széléig)
-} */
-}
-/* Ha f12-ben nézem az oldalt a sidenav belemegy a fő szövegbe, 
-jelenleg nem tudom mi csinálhatja, ha manuálisan huzzom össze minden jó */
-.col-6{
-background-color: var(--feher);
-border-radius: 10px;
-padding: 10px;
-}
-.col-6 p{
-text-align: center;
-}
+  header{
+  text-align: center;
+  }
+  
+  header h1{
+  background-color: var(--feher);
+  border-radius: 10px;
+  margin: 20px 20px 20px 16.7%
+  }
+  
+  
+  @media screen and (max-width: 990px) {
+  .sidenav {
+    display: none;
+  }
+  /* .header{
+    margin: 20px !important;   Nem akarja a margint átváltani, majd meg kell nézni miért(Azért kell mert bemegy a sidenav alá a szoveg háttere alapból, ezért elöbb kihuztam marginnal de ha a sidenav eltunik vissza kellene mennie az oldal széléig)
+  } */
+  }
+  /* Ha f12-ben nézem az oldalt a sidenav belemegy a fő szövegbe, 
+  jelenleg nem tudom mi csinálhatja, ha manuálisan huzzom össze minden jó */
+  .col-6{
+  background-color: var(--feher);
+  border-radius: 10px;
+  padding: 10px;
+  }
+  .col-6 p{
+  text-align: center;
+  }
