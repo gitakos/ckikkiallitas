@@ -1,115 +1,130 @@
 :root{
-  --zoldessarga : rgb(244, 255, 214);
-  --kekesfeher: rgb(237, 255, 253);
-  --kekes: rgb(160, 193, 190);
-  --nagyonkek: rgb(155, 241, 255);
-  --sotetebbkek: rgb(82, 153, 195);
-  --melegfeher: rgb(255, 247, 228);
-  --szekrenyszurke: rgb(140, 162, 184);
-  --kolbaszzsirsarga: rgb(181, 199, 144);
-  --feher:#fff;
-  --sotetkek : rgb(34, 47, 51);
-  --kijelolesszurke: rgb(94, 94, 94);
-}
-
-
+    --zoldessarga : rgb(244, 255, 214);
+    --kekesfeher: rgb(237, 255, 253);
+    --kekes: rgb(160, 193, 190);
+    --nagyonkek: rgb(155, 241, 255);
+    --sotetebbkek: rgb(82, 153, 195);
+    --melegfeher: rgb(255, 247, 228);
+    --szekrenyszurke: rgb(140, 162, 184);
+    --kolbaszzsirsarga: rgb(181, 199, 144);
+    --feher:#fff;
+    --sotetkek : rgb(34, 47, 51);
+    --kijelolesszurke: rgb(94, 94, 94);
+    --hatterszurke: #738082;
+  }
+  
+  
 body{
-box-sizing: border-box;
-font-family: 'Montserrat', sans-serif;
-background-color: lightblue;
-background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dreamtemplate.com%2Fdreamcodes%2Fbg_images%2Fcolor%2Fc12.jpg&f=1&nofb=1&ipt=f9ad211750620d78714aa17c2b4757ad5d50ca8f2c6d3a9e2b58b3e41bea7138&ipo=images);
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightblue;
+  background-image: url(https://ichef.bbci.co.uk/news/2048/cpsprodpb/109A5/production/_119250086_gettyimages-1307058458siliconsemiconductorwafer.jpg);
+  background-size: cover;
+  color: var(--feher);
 }
 
 
+.lent{
+  
+}
 
 .sidenav{
-width: 15%;
-height: 100vh;
-text-align: center;
-padding-top: 20px;
-position: fixed;
-top: 0;
-left: 0;
-background-color: var(--sotetkek);
+  height: 100vh;
+  width: 7.5%;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--sotetkek);
 }
 
 
 .sidenav a {
-padding: 10px;
-text-decoration: none;
-font-size: 18px;
-color: var(--kekesfeher);
-display: block;
-border-bottom: var(--feher) solid;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--kekesfeher);
+  display: block;
+  border-bottom: var(--feher) solid;
 }
 
 .sidenav a:hover {
-color: var(--zoldessarga);
-background-color: var(--kijelolesszurke);
+  color: var(--zoldessarga);
+  background-color: var(--kijelolesszurke);
 }
 
-.kep{
-align-content: flex-start;
-width:fit-content;
+#kep{
+  align-content: flex-start;
+  width:fit-content;
+  object-fit: cover;
+
 }
 
 h2{
-font-size: larger;
-text-align: center;
-}
+  font-size: larger;
+  padding: 0px;
 
-
-img {
-float: right;
-border: 1px dotted black;
-margin: 0px 0px 15px 20px;
-}
-
-.table-wrapper{
-margin: 0px 40px 40px;
+  /* text-align: center; */
 }
 
 table {
-border-radius: 10px;
-font-size: 12px;
-font-weight: normal;
-border-collapse: collapse;
-width: 100%;
-max-width: 100%;
-background-color: white;
+  width: 12%;
+  font-size: 14px;
+  font-weight: normal;
+  border-collapse: collapse;
+  max-width: 33%;
+  background-color: var(--hatterszurke);
+  border: 1px solid var(--kijelolesszurke);
+  border-radius: 10px;
+  
 }
 
 td, th {
-text-align: center;
-padding: 8px;
-}
+  text-align: left;
+  padding: 8px;
+  vertical-align: text-top;
 
-header{
-text-align: center;
+}
+.oszlop1{
+  
+  font-weight: bold;
+  width: 13%;
+  font-size: 15px;
+}
+tr:hover {
+  background-color: var(--szekrenyszurke);
 }
 
 header h1{
-background-color: var(--feher);
-border-radius: 10px;
-margin: 20px 20px 20px 16.7%
+  text-align: center;
+  width: fit-content;
+  background-color: var(--hatterszurke);
+  border-radius: 10px;
+  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  color: var(--fekete);
 }
 
 
 @media screen and (max-width: 990px) {
-.sidenav {
-  display: none;
+  .sidenav {
+    display: none;
+  }
+  /* .header{
+    margin: 20px !important;   Nem akarja a margint átváltani, majd meg kell nézni miért(Azért kell mert bemegy a sidenav alá a szoveg háttere alapból, ezért elöbb kihuztam marginnal de ha a sidenav eltunik vissza kellene mennie az oldal széléig)
+  } */
+  }
+  /* Ha f12-ben nézem az oldalt a sidenav belemegy a fő szövegbe, 
+  jelenleg nem tudom mi csinálhatja, ha manuálisan huzzom össze minden jó */
+
+.col-7{
+  background-color: var(--hatterszurke);
+  border-radius: 10px;
+  padding: 20px;
 }
-/* .header{
-  margin: 20px !important;   Nem akarja a margint átváltani, majd meg kell nézni miért(Azért kell mert bemegy a sidenav alá a szoveg háttere alapból, ezért elöbb kihuztam marginnal de ha a sidenav eltunik vissza kellene mennie az oldal széléig)
-} */
-}
-/* Ha f12-ben nézem az oldalt a sidenav belemegy a fő szövegbe, 
-jelenleg nem tudom mi csinálhatja, ha manuálisan huzzom össze minden jó */
-.col-6{
-background-color: var(--feher);
-border-radius: 10px;
-padding: 10px;
-}
-.col-6 p{
-text-align: center;
+.col-7 p{
+  text-align: center;
 }
