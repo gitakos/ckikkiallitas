@@ -7,13 +7,14 @@
     --melegfeher: rgb(255, 247, 228);
     --szekrenyszurke: rgb(140, 162, 184);
     --kolbaszzsirsarga: rgb(181, 199, 144);
-    --feher:#fff;
+    --feher:rgb(255, 255, 255);
     --sotetkek : rgb(34, 47, 51);
     --kijelolesszurke: rgb(94, 94, 94);
-    --hatterszurke: #738082;
+    --hatterszurke: rgb(115, 128, 130);
+    --kijelolopiros: rgb(203, 54, 54);
   }
-  
-  
+
+
 body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -25,7 +26,17 @@ body{
 
 
 .lent{
-  
+  border-top:var(--kijelolopiros) solid ;
+  border-bottom: var(--kijelolopiros) solid !important;
+  position:absolute; /*Ezzel egy kicsit szenved a border de jelenleg nincs jobb otletem */
+  bottom:0;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.lent:hover{
+  color: var(--kijelolopiros) !important;
+  background-color: var(--fekete)!important;
 }
 
 .sidenav{
@@ -54,40 +65,35 @@ body{
   background-color: var(--kijelolesszurke);
 }
 
-#kep{
+
+.kep{
   align-content: flex-start;
   width:fit-content;
   object-fit: cover;
-
 }
 
 h2{
   font-size: larger;
   padding: 0px;
-
-  /* text-align: center; */
+  text-indent: 10px;
 }
 
+
+
 table {
-  width: 12%;
-  font-size: 14px;
-  font-weight: normal;
   border-collapse: collapse;
   max-width: 33%;
   background-color: var(--hatterszurke);
-  border: 1px solid var(--kijelolesszurke);
   border-radius: 10px;
-  
 }
 
 td, th {
   text-align: left;
   padding: 8px;
   vertical-align: text-top;
-
 }
 .oszlop1{
-  
+
   font-weight: bold;
   width: 13%;
   font-size: 15px;
@@ -110,21 +116,17 @@ header h1{
 
 
 @media screen and (max-width: 990px) {
-  .sidenav {
-    display: none;
-  }
-  /* .header{
-    margin: 20px !important;   Nem akarja a margint átváltani, majd meg kell nézni miért(Azért kell mert bemegy a sidenav alá a szoveg háttere alapból, ezért elöbb kihuztam marginnal de ha a sidenav eltunik vissza kellene mennie az oldal széléig)
-  } */
-  }
-  /* Ha f12-ben nézem az oldalt a sidenav belemegy a fő szövegbe, 
-  jelenleg nem tudom mi csinálhatja, ha manuálisan huzzom össze minden jó */
+.sidenav {
+  display: none;
+}
+}
 
-.col-7{
+
+.szoveg{
   background-color: var(--hatterszurke);
   border-radius: 10px;
   padding: 20px;
 }
-.col-7 p{
+.szoveg p{
   text-align: center;
 }
