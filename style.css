@@ -121,8 +121,14 @@ header h1{
   background-color: var(--hatterszurke);
   border-radius: 10px;
   padding: 20px;
+  padding-bottom: 0px; /*Kicsit hülyén nézki a p-nek marginjával együtt a padding ha nem 0px*/
 }
 
 .szoveg p{
   text-align: center;
+}
+
+#kulonleges{
+  color: rgb(247, 70, 70);
+  /*Ez az id, és hozzá tartozó html bejegyzések kilesznek majd törölve ha készen vagyunk*/
 }
