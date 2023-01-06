@@ -1,34 +1,32 @@
 :root{
-    --zoldessarga : rgb(244, 255, 214);
-    --kekesfeher: rgb(237, 255, 253);
-    --kekes: rgb(160, 193, 190);
-    --nagyonkek: rgb(155, 241, 255);
-    --sotetebbkek: rgb(82, 153, 195);
-    --melegfeher: rgb(255, 247, 228);
-    --szekrenyszurke: rgb(140, 162, 184);
-    --kolbaszzsirsarga: rgb(181, 199, 144);
-    --feher:rgb(255, 255, 255);
-    --sotetkek : rgb(34, 47, 51);
-    --kijelolesszurke: rgb(94, 94, 94);
-    --hatterszurke: rgb(115, 128, 130);
-    --kijelolopiros: rgb(203, 54, 54);
-  }
-
+  --zoldessarga : rgb(244, 255, 214);
+  --kekesfeher: rgb(237, 255, 253);
+  --kekes: rgb(160, 193, 190);
+  --nagyonkek: rgb(155, 241, 255);
+  --sotetebbkek: rgb(82, 153, 195);
+  --melegfeher: rgb(255, 247, 228);
+  --szekrenyszurke: rgb(140, 162, 184);
+  --kolbaszzsirsarga: rgb(181, 199, 144);
+  --feher:rgb(255, 255, 255);
+  --sotetkek : rgb(34, 47, 51);
+  --kijelolesszurke: rgb(94, 94, 94);
+  --hatterszurke: rgb(115, 128, 130);
+  --kijelolopiros: rgb(203, 54, 54);
+}
 
 body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  background-color: lightblue;
+  background-color: var(--nagyonkek);
   background-image: url(https://ichef.bbci.co.uk/news/2048/cpsprodpb/109A5/production/_119250086_gettyimages-1307058458siliconsemiconductorwafer.jpg);
   background-size: cover;
   color: var(--feher);
 }
 
-
 .lent{
   border-top:var(--kijelolopiros) solid ;
   border-bottom: var(--kijelolopiros) solid !important;
-  position:absolute; /*Ezzel egy kicsit szenved a border de jelenleg nincs jobb otletem */
+  position: absolute; /*Ezzel egy kicsit szenved a border de jelenleg nincs jobb otletem */
   bottom:0;
   margin-bottom: 50px;
   padding: 10px;
@@ -43,13 +41,12 @@ body{
   height: 100vh;
   width: 7.5%;
   text-align: center;
-  padding-top: 20px;
+  /*padding-top: 20px; (Logó lenne a sidenav tetején? vagy csak teljesen kozmetikai ez a padding?)*/
   position: fixed;
   top: 0;
   left: 0;
   background-color: var(--sotetkek);
 }
-
 
 .sidenav a {
   padding: 10px;
@@ -65,7 +62,6 @@ body{
   background-color: var(--kijelolesszurke);
 }
 
-
 .kep{
   align-content: flex-start;
   width:fit-content;
@@ -74,29 +70,28 @@ body{
 
 h2{
   font-size: larger;
-  padding: 0px;
+  /*padding: 0px;*/
   text-indent: 10px;
 }
 
-
-
 table {
-  border-collapse: collapse;
+  /*border-collapse: collapse;(reboot.scss már alapjárat rak ilyet a table-re)*/
   background-color: var(--hatterszurke);
   border-radius: 10px;
 }
 
-td, th {
+td{
   text-align: left;
   padding: 8px;
   vertical-align: text-top;
 }
-.oszlop1{
 
+.tablasorcim{
   font-weight: bold;
   width: 13%;
   font-size: 15px;
 }
+
 tr:hover {
   background-color: var(--szekrenyszurke);
 }
@@ -113,19 +108,21 @@ header h1{
   color: var(--fekete);
 }
 
-
-@media screen and (max-width: 990px) {
-.sidenav {
-  display: none;
+@media screen and (max-width: 990px){
+  .sidenav{
+    display: none;
+  }
+  .col-7{
+    width: 66.66666667%; /*Mintha egy col-8 lenne, csak nem*/
+  }
 }
-}
-
 
 .szoveg{
   background-color: var(--hatterszurke);
   border-radius: 10px;
   padding: 20px;
 }
+
 .szoveg p{
   text-align: center;
 }
