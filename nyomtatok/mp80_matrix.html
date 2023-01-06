@@ -1,74 +1,134 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <!-- bootstrap belinkelese -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <title>Kialitas</title>
+    <!--Ha használunk bootstrapat akkor tudni kell a használt tageknek a tulajdonságait :nerdemoji: -->
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
+    <header>
+        <h1>MP-80 Mátrix Nyomtató</h1>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1 d-none d-lg-block"> <!--Miért használjuk a "d-xl-none" cuccot ha már css-ben media query-vel már eleve kilőjük a sidenavot?-->
+                    <div class="sidenav">
+                        <a href="mp80_matrix.html">MP-80 Matrix</a>
+                        <a href="emg_666.html">EMG 839</a>
+                        <!-- <a href="...">Teszt3</a>
+                        <a href="...">Teszt4</a>
+                        <a href="...">Teszt5</a>
+                        <a href="...">Teszt6</a> -->
+                        <a href="..." class="lent">Vissza a főoldalra</a>
+                    </div>
+                </div>
+                <div class="col-7 szoveg">
+                    <h2>Eredete</h2>
+                    <hr>
+                    <p>
+                      Az MP-80 mátrixnyomtató az IBM <a href="https://itf.njszt.hu/termek_hardware/proper-16-szemelyi-szamitogep">Proper 16</a> személyi számítógép egyik külsőeszköze. 
+                      A nyomtató gép a számítógép kiadása után röviden elérhető volt külső periféria ként.
+                      Mindkét számítástechnikai eszköz hazai gyártású, viszont csak egy évig volt elérhető 1982-től 1983-ig.
+                    </p>
+                    <h2>A mátrixnyomtató az írógép továbbfejlesztett változata.</h2>
+                    <hr>
+                    <p>
+                        A nyomtatófejben apró tűk vannak (általában 9 vagy 24 db).
+                        A papír előtt egy kifeszített festékszalag mozog, amelyre a tűk ráütnek, és létrehoznak a papíron egy pontot.
+                        A kép ezekből a pontokból fog állni. A tűket elektromágneses tér mozgatja, és rugóerő húzza vissza eredeti helyükre.
+                        Ezzel az eljárással nem csak karakterek, hanem képek, rajzok is nyomtathatóak. A nyomtatott képek felbontása gyenge,
+                        de ahol nem szükséges a jó minőség, ott ma is használják, mert olcsó és alkalmas indigós számlanyomtatásra.
+                    </p>
+                    <h2>A mátrix nyomtatás elve</h2>
+                    <hr>
+                      <p>
+                          A mátrix nyomtatók hasonló elven működnek, mint ahogy ezt ismerjük az írógépeknél. Azonban a nyomtató 9 vagy egészen 24 tűvel rendelkezik,
+                          melyek mátrixba vannak rendezve. A nyomtatási feladat megadását követően a tűk a festékszalagon keresztül ráütnek a papírra, így szöveg vagy egyszerű grafika jön létre.
+                          A nyomtatás minőségét a tűk száma határozza meg. Ebben az esetben is érvényes az az alapszabály, hogy minél nagyobb számú tűvel rendelkezik a nyomtató,
+                          annál jobb minőségű és gyorsabb a nyomtatás. Általában a magasabb tűszámú nyomtató csendesebb is.
+                      </p>
+                    <h2>A mátrixnyomtató írásmódja</h2>
+                    <hr>
+                      <p>
+                          A pontmátrixos (más néven drótmátrix) nyomtatók a futball- vagy kosárlabda-eredménytáblákhoz hasonló tervezési elven alapulnak.
+                          A mátrix egy szögekből álló téglalap. A tűk bizonyos kombinációi aktiválva vannak a karakterek megjelenítésére. Például,
+                          a 4-es számot és az L betűt a papírhoz nyomott tűk kombinációja alkotja.
+                          A különböző számok, betűk és speciális karakterek ábrázolására használt pontkombinációk.
+                      </p>
+                </div>
+                <div class="col-4"> 
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <td colspan="2"><img class="kep img-fluid" src="https://www.cegled.hu/akt/kepek/vegyes/nagykepek/425.jpg" alt="kep" title="kep"></td>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablasorcim">Content 1</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
 
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 2</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
 
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 3</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
 
-    </ul>
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 4</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
 
-  </div>
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 5</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
 
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 6</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
 
-    </div>
-  </div>   
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 7</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
+                                </tr>
+                                <!--Pár pillanat úgy nézki hogy 7 sornyi adat használható itt(anélkül hogy görgetőssé váljon az oldal)-->
+                                <tr>
+                                    <td class="tablasorcim">Content 8</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 9</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="tablasorcim">Content 10</td>
+                                    <td>Maiores amet voluptate magni tempora ducimus iure voluptatum cumque?
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
