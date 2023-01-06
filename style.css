@@ -18,7 +18,7 @@ body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   background-color: var(--nagyonkek);
-  background-image: url(https://ichef.bbci.co.uk/news/2048/cpsprodpb/109A5/production/_119250086_gettyimages-1307058458siliconsemiconductorwafer.jpg); 
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/02/11/251987/34dc22192282f081d7701db77634c6a4-700.jpg);
   background-size: cover;
   color: var(--feher);
 }
@@ -30,6 +30,8 @@ body{
   bottom:0;
   margin-bottom: 50px;
   padding: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .lent:hover{
@@ -121,14 +123,13 @@ header h1{
   background-color: var(--hatterszurke);
   border-radius: 10px;
   padding: 20px;
-  padding-bottom: 0px; /*Kicsit hülyén nézki a p-nek marginjával együtt a padding ha nem 0px*/
 }
 
 .szoveg p{
-  text-align: center;
+  text-align: left;
+  margin-left: 25px;
 }
 
-#kulonleges{
-  color: rgb(247, 70, 70);
-  /*Ez az id, és hozzá tartozó html bejegyzések kilesznek majd törölve ha készen vagyunk*/
+.nemtudtamkitalalnikreativnevet{
+  margin-left: 12px;
 }
