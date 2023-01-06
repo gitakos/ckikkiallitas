@@ -18,7 +18,7 @@ body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   background-color: var(--nagyonkek);
-  background-image: url(kepek/hatter_hatter.jpg);
+  background-image: url(https://ichef.bbci.co.uk/news/2048/cpsprodpb/109A5/production/_119250086_gettyimages-1307058458siliconsemiconductorwafer.jpg); 
   background-size: cover;
   color: var(--feher);
 }
