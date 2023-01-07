@@ -50,6 +50,18 @@ body{
   background-color: var(--sotetkek);
 }
 
+#szamitogep{
+  background-image: url(kepek/hatter/hatter_szamitogep.jpg) !important;
+}
+
+#szamologep{
+  background-image: url(kepek/hatter/hatter_szamolo.webp) !important;
+}
+
+#nyomtato{
+  background-image: url(/kepek/hatter/hatter_nyomtato.jpg) !important;
+}
+
 .sidenav a {
   padding: 10px;
   text-decoration: none;
@@ -64,10 +76,11 @@ body{
   background-color: var(--kijelolesszurke);
 }
 
-.kep{
+.carousel-item img{
   align-content: flex-start;
-  width:fit-content;
-  object-fit: cover;
+  max-width: 600px; /*a szamokkal kell meg szenvedni hogy jol nezzen ki fullhd monitoron media@ is lehetne hasznalni*/
+  max-height: 350px;
+  /* object-fit: cover; */
 }
 
 h2{
