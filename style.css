@@ -52,14 +52,17 @@ body{
 
 #szamitogep{
   background-image: url(kepek/hatter/hatter_szamitogep.jpg) !important;
+  background-size: cover;
 }
 
 #szamologep{
   background-image: url(kepek/hatter/hatter_szamolo.webp) !important;
+  background-size: cover;
 }
 
 #nyomtato{
-  background-image: url(/kepek/hatter/hatter_nyomtato.jpg) !important;
+  background-image: url(kepek/hatter/hatter_nyomtato.jpg) !important;
+  background-size: cover;
 }
 
 .sidenav a {
