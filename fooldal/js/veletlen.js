@@ -57,7 +57,8 @@ $(document).ready(function(){
         let i=0;
         for (let index = 0; index < itemek.length; index++) {
 
-            var year=$(this).data().time.toString().substring(0,4);
+            //var year=$(this).data().time.toString().substring(0,4);
+            var year = index;
             console.log($(this).width());
             do {
                 ujLeft=random(1664525,1013904223,Math.pow(2,32),year,index+i)% (1920-itemek[index].offsetWidth-50);
