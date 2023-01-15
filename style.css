@@ -8,14 +8,14 @@
   --szekrenyszurke: rgb(140, 162, 184);
   --kolbaszzsirsarga: rgb(181, 199, 144);
   --feher:rgb(255, 255, 255);
-  --sotetkek : rgb(34, 47, 51);
+  --sotetkek : rgb(34, 47, 51, 0.8);
   --kijelolesszurke: rgb(94, 94, 94);
-  --hatterszurke: rgb(115, 128, 130);
+  --hatterszurke: rgb(115, 128, 130, 0.8);
   --kijelolopiros: rgb(203, 54, 54);
 
   /* Eman css-böl a szinkodok, a sotetkek szot mar mi is hasznaltuk */
-  --vilagoskek: #79acd6;
-  /* --sotetkek: #3a668a; */
+  --vilagoskek: rgb(121, 172, 214);
+  /* --sotetkek: rgb(58, 102, 138); */
 
 }
 
@@ -23,7 +23,9 @@ body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   background-color: var(--nagyonkek);
-  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/02/11/251987/34dc22192282f081d7701db77634c6a4-700.jpg);
+  background-image: url(/fooldal/img/hatter.jpg);
+  /* eredeti háttérkép */
+  /* background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/02/11/251987/34dc22192282f081d7701db77634c6a4-700.jpg); */
   background-size: cover;
   color: var(--feher);
 }
@@ -55,7 +57,7 @@ body{
   background-color: var(--sotetkek);
 }
 
-#szamitogep{
+/* #szamitogep{
   background-image: url(kepek/hatter/hatter_szamitogep.jpg) !important;
   background-size: auto;
 }
@@ -68,7 +70,7 @@ body{
 #nyomtato{
   background-image: url(kepek/hatter/hatter_nyomtato.jpg) !important;
   background-size: auto;
-}
+} */
 
 .sidenav a {
   padding: 10px;
@@ -295,9 +297,9 @@ footer h1 {
 }
 
 
-.timeline-container {
-  /* position: relative;  */
-}
+/* .timeline-container {
+  position: relative;
+} */
 
 .timeline-container::after {
     content: '';
