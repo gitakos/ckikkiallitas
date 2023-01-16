@@ -8,6 +8,26 @@
 :root {
   --vilagoskek: #79acd6;
   --sotetkek: #3a668a;
+
+    /*Teszt css root*/
+  --zoldessarga : rgb(244, 255, 214);
+  --kekesfeher: rgb(237, 255, 253);
+  --kekes: rgb(160, 193, 190);
+  --nagyonkek: rgb(155, 241, 255);
+  --sotetebbkek: rgb(82, 153, 195);
+  --melegfeher: rgb(255, 247, 228);
+  --szekrenyszurke: rgb(140, 162, 184);
+  --kolbaszzsirsarga: rgb(181, 199, 144);
+  --feher:rgb(255, 255, 255);
+  --sotetkek : rgb(34, 47, 51, 0.8);
+  --kijelolesszurke: rgb(94, 94, 94);
+  --hatterszurke: rgb(115, 128, 130, 0.8);
+  --kijelolopiros: rgb(203, 54, 54);
+
+  /* Eman css-böl a szinkodok, a sotetkek szot mar mi is hasznaltuk */
+  --vilagoskek: rgb(121, 172, 214);
+  /* --sotetkek: rgb(58, 102, 138); */
+
 }
 
 header {
@@ -247,3 +267,41 @@ body {
   font-weight: 100;
 }
 
+/*Teszt oldal css részletek*/
+.carousel-control-prev,.carousel-control-next{
+  position: absolute !important;
+}
+
+header{
+  border-radius: 10px;
+}
+main{
+  margin-top: 1%;
+}
+.tablasorcim{
+  font-weight: bold;
+  width: 13%;
+  font-size: 15px;
+}
+table {
+  /*border-collapse: collapse;(reboot.scss már alapjárat rak ilyet a table-re)*/
+  background-color: var(--hatterszurke);
+  border-radius: 10px;
+}
+
+td{
+  text-align: left;
+  padding: 8px;
+  vertical-align: text-top;
+}
+
+tr:hover {
+  background-color: var(--szekrenyszurke);
+}
+
+.carousel-item img{
+  align-content: flex-start;
+  max-width: 600px; /*a szamokkal kell meg szenvedni hogy jol nezzen ki fullhd monitoron media@ is lehetne hasznalni*/
+  max-height: 350px;
+  /* object-fit: cover; */
+}
