@@ -9,7 +9,7 @@
   --vilagoskek: #79acd6;
   --sotetkek: #3a668a;
 
-    /*Teszt css root*/
+    /*---------------Felülírás root---------------*/
   --zoldessarga : rgb(244, 255, 214);
   --kekesfeher: rgb(237, 255, 253);
   --kekes: rgb(160, 193, 190);
@@ -23,9 +23,7 @@
   --kijelolesszurke: rgb(94, 94, 94);
   --hatterszurke: rgb(115, 128, 130, 0.8);
   --kijelolopiros: rgb(203, 54, 54);
-
-  /* Eman css-böl a szinkodok, a sotetkek szot mar mi is hasznaltuk */
-  --vilagoskek: rgb(121, 172, 214);
+  --babakék: rgb(157, 203, 235);
   /* --sotetkek: rgb(58, 102, 138); */
 
 }
@@ -63,10 +61,18 @@ footer h1 {
 .information button {
   position: relative;
   right: 0;
+
+}
+
+
+.information>p>button{
+  position: absolute;
+  bottom:0;
+  margin:50px;
 }
 
 .information {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
   margin:20px;
   border-radius: 20px;
   padding: 10px;
@@ -265,9 +271,14 @@ body {
   background-size: cover;
   font-family: Raleway;
   font-weight: 100;
+  font-size: 110%;
 }
 
-/*Teszt oldal css részletek*/
+body p,body a{
+  padding-left: 1%;
+}
+
+/*----------------Felülírás oldal css ----------------*/
 .carousel-control-prev,.carousel-control-next{
   position: absolute !important;
 }
@@ -285,7 +296,7 @@ main{
 }
 table {
   /*border-collapse: collapse;(reboot.scss már alapjárat rak ilyet a table-re)*/
-  background-color: var(--hatterszurke);
+  background-color: var(--babakék);
   border-radius: 10px;
 }
 
@@ -296,12 +307,12 @@ td{
 }
 
 tr:hover {
-  background-color: var(--szekrenyszurke);
+  background-color: var(--sotetebbkek);
 }
 
 .carousel-item img{
   align-content: flex-start;
   max-width: 600px; /*a szamokkal kell meg szenvedni hogy jol nezzen ki fullhd monitoron media@ is lehetne hasznalni*/
-  max-height: 350px;
+  max-height: 320px;
   /* object-fit: cover; */
 }
