@@ -287,7 +287,7 @@ header{
   border-radius: 10px;
 }
 main{
-  margin-top: 1%;
+  margin-top: 15px;
 }
 .tablasorcim{
   font-weight: bold;
@@ -315,4 +315,10 @@ tr:hover {
   max-width: 600px; /*a szamokkal kell meg szenvedni hogy jol nezzen ki fullhd monitoron media@ is lehetne hasznalni*/
   max-height: 320px;
   /* object-fit: cover; */
+}
+
+@media only screen and (max-width: 900px){
+  .col-12{
+    padding-bottom: 15px;
+  }
 }
