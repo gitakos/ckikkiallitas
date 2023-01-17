@@ -268,10 +268,13 @@ body {
   background-image: url("../img/hatter.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover, contain;
   font-family: Raleway;
   font-weight: 100;
   font-size: 110%;
+}
+.container-fluid {
+  height: 100vh;
 }
 /*----------------Felülírás oldal css ----------------*/
 .carousel-control-prev,.carousel-control-next{
@@ -322,15 +325,19 @@ tr:hover {
   text-align: left;
   list-style-position: inside;
   padding-top: 20px;
-  text-indent: 15%;
+  text-indent: 25%;
 }
 
-.tartalom p{
-  text-indent: 30%;
+.tartalom>.col-4>ul,.tartalom>.col-4>h1{
+  background-color: var(--babakék);
+  border-radius: 10px;
+}
+
+.tartalom>.col-4>ul>li{
+  padding: 10px;
 }
 
 .row{
   padding-left: 5px;
 }
-
 
