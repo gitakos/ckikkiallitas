@@ -273,11 +273,6 @@ body {
   font-weight: 100;
   font-size: 110%;
 }
-
-body p,body a{
-  padding-left: 1%;
-}
-
 /*----------------Felülírás oldal css ----------------*/
 .carousel-control-prev,.carousel-control-next{
   position: absolute !important;
@@ -321,4 +316,7 @@ tr:hover {
   .col-12{
     padding-bottom: 15px;
   }
+}
+.row{
+  padding-left: 15px;
 }
