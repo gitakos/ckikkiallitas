@@ -140,10 +140,10 @@ footer h1 {
   color: var(--sotetkek);
 }
 
-
+/* 
 .timeline-container {
-  /* position: relative;  */
-}
+  position: relative; 
+} */
 
 .timeline-container::after {
     content: '';
@@ -317,6 +317,20 @@ tr:hover {
     padding-bottom: 15px;
   }
 }
+
+.tartalom{
+  text-align: left;
+  list-style-position: inside;
+  padding-top: 20px;
+  text-indent: 15%;
+}
+
+.tartalom p{
+  text-indent: 30%;
+}
+
 .row{
   padding-left: 5px;
 }
+
+
