@@ -140,10 +140,10 @@ footer h1 {
   color: var(--sotetkek);
 }
 
-
+/* 
 .timeline-container {
-  /* position: relative;  */
-}
+  position: relative; 
+} */
 
 .timeline-container::after {
     content: '';
@@ -273,11 +273,6 @@ body {
   font-weight: 100;
   font-size: 110%;
 }
-
-body p,body a{
-  padding-left: 1%;
-}
-
 /*----------------Felülírás oldal css ----------------*/
 .carousel-control-prev,.carousel-control-next{
   position: absolute !important;
@@ -322,3 +317,19 @@ tr:hover {
     padding-bottom: 15px;
   }
 }
+
+.tartalom{
+  text-align: left;
+  list-style-position: inside;
+  padding-top: 20px;
+  text-indent: 15%;
+}
+
+.tartalom p{
+  text-indent: 30%;
+}
+
+.row{
+  padding-left: 5px;
+}
+
