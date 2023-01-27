@@ -1,0 +1,12 @@
+Főbb tudnivalók:
+A számítógép általános irodai célra készült, így főként 
+szövegszerkesztő, táblázatkezelő és adatbáziskezelő programok futottak rajta.
+
+Adatok az eszközről:
+A munkaállomás beépített nyomtatót és monitort, 
+valamint többféle háttértárat tartalmazhatott.
+(8”-os floppymeghajtó magnókazetta, vagy 5.25”-os floppymeghajtó.)
+Az abban az időben átlagos 64 KB memóriával szerelték a gépet, mely 112 KB-ig volt bővíthető. 
+
+Bővebb tudnivalók:
+https://ajovomultja.hu/exhibition/robotron-a5130?language=hu

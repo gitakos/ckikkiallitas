@@ -1,0 +1,11 @@
+Főbb tudnivalók:
+A T3100 a Toshiba által 1986-ban kiadott hordozható számítógép volt. 
+
+---------------------------Táblázatba----------------------------
+Adatok az eszközről:
+Processzor: Intel 80286 8 MHz-es
+Kijelző: 640 x 480,6 árnyalat megjelenítésére képes
+Memória: 2 opcoó volt: 640 KB vagy 1 mb (bővíthető 2mb-ig)
+Tárhely: 10 MB -os merevlemez
+----------------------------------------------------------------
+Bővebb tudnivalók:

@@ -1,0 +1,22 @@
+Főbb tudnivalók:
+Portable Vectra CS, product code HP D1001A
+
+Származása: USA
+
+Bemutatva: 1987
+
+420x353x90 mm, 8 kg
+
+Adatok az eszközről:
+
+Billentyűzet:
+92 billentyűs billentyűzet külön numerikus billentyűzettel. 
+
+Chipset:
+6 bites Intel 8086 mikroprocesszor @ 7,16 Mhz és egy 8087-es socket numerikus társprocesszor beillesztéséhez.
+
+Kijelző:
+A kijelző egy 12" sárga-zöld szűrős monokróm LCD kijelző állítható dőlésszöggel és kontraszttal.
+
+Bővebb tudnivalók:
+http://www.curtamania.com/curta/database/brand/hewlett_packard/HP%20Portable%20Vectra%20CS/index.html

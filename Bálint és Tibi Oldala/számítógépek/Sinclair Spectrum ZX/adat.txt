@@ -1,0 +1,15 @@
+Főbb tudnivalók:
+A Sinclair ZX Spectrum személyi számítógép volt, melyet 1982-ben bocsátott 
+ki a Sinclair Research az Egyesült Királyságban.
+Kijelzőként a tévét lehetett használni. 
+A Spectrum családhoz több mint 20 000 programot lehetett használni. 
+----------------------------Táblázatba-----------------------------
+Adatok az eszközről:
+Processzor:	Zilog Z80 @ 3,5 MHz
+Memória: 48 Kb / 128 Kb
+Operációs rendszer:	Sinclair BASIC
+Kijelző	otthoni televíziókészülék
+-------------------------------------------------------------------
+Bővebb tudnivalók:
+https://www.designweek.co.uk/issues/december-2014/spectrum-inventor-sir-clive-sinclair-launches-new-low-cost-games-console/
+https://hu.wikipedia.org/wiki/Sinclair_Spectrum

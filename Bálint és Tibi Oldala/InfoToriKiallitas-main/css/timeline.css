@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/*!
+	Timeline - v0.0.1
+	ilker Yılmaz
+	https://github.com/ilkeryilmaz/timeline
+ */
+
+:root {
+  --vilagoskek: #79acd6;
+  --sotetkek: #3a668a;
+}
+/*
+header {
+  background-color: var(--vilagoskek);
+  padding: 10px 20px 10px 10px;
+  width: 100%;
+  margin: 0px !important;
+}
+*/
+
+header h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 0px;
+  padding-top:5px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0.5em;
+  left:0px;
+  width: 1920px;
+  text-align: center;
+}
+
+footer h1 {
+  color: var(--sotetkek);
+  font-family: Raleway;
+  font-weight: 300;
+}
+
+.information button {
+  position: relative;
+  right: 0;
+}
+
+.information {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin:20px;
+  border-radius: 20px;
+  padding: 10px;
+  height: 95vh;
+  color: black;
+  font-weight: 400;
+  overflow-y: auto;
+}
+.btn {
+  color: var(--sotetkek) !important;
+  background-color: var(--vilagoskek) !important;
+}
+
+.info-item {
+  width: 10em;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--sotetkek);
+  font-family: Raleway;
+  font-weight: 300;
+  position: absolute; 
+}
+
+.info-img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  /* float: left; */
+}
+.info-img img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.info-details {
+  margin: auto;
+} 
+
+.info-details::after {
+  content: "";
+  clear: both;
+}
+
+
+.container {
+  width: 100vh;
+}
+
+.section-list {
+  margin-bottom: 2em;
+  height: 100vh;
+}
+
+.timeline-1 .timeline-item {
+  float:left;
+  position: relative;
+  top:0px;
+  left:0px;
+  /* display: inline-table; */
+  width:100vw;
+  height: 80vh;
+  border: none; 
+  color: var(--sotetkek);
+}
+
+
+.timeline-container {
+  /* position: relative;  */
+}
+
+.timeline-container::after {
+    content: '';
+    display: table;
+    clear: both; 
+}
+
+.timeline {
+  width: 100%; 
+}
+
+.timeline-list {
+  /* position: relative; */
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+
+.timeline-list-wrap {
+  /* position: relative;
+  top: 0;
+  left: 0; */
+  display: block;
+  height: 78vh;
+  transform: translate3d(0, 0, 0);
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+
+
+
+.timeline-dots-wrap {
+  position: fixed;
+  left: 0;
+  bottom: 4rem;
+  width: 100%;
+  color: white;
+  text-align: center; 
+  overflow: hidden; 
+}
+
+.timeline-horizontal .timeline-dots-wrap {
+    width: 100%;
+}
+
+.timeline-dots {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+}
+
+
+.timeline-horizontal .timeline-dots li {
+  float: left;
+  width: 10em;
+  text-align: center; 
+}
+
+.timeline-dots li.slide-active button {
+  color: yellow;
+  font-size: 18px; 
+}
+
+.timeline-dots button {
+  cursor: pointer;
+  border: none;
+  outline: none; 
+  color: white;
+  font-size: 18px;
+  background: none !important;
+  transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+}
+
+.timeline-container {
+  width: 100%;
+  margin: 0 auto; 
+}
+  
+.timeline-dots li {
+  transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  list-style: none;
+  overflow: hidden; 
+  position: relative;                      
+  font-size: 16px;
+  clip-path: polygon( 0% 0%, 
+                      calc(100% - 1em) 0%, 
+                      100% 50%, 
+                      calc(100% - 1em) 100%, 
+                      0% 100%,
+                      5% 50% );
+  margin: 0px;
+  color: white;
+  text-align: left;
+  padding: 20px 50px 20px 50px;
+}
+  
+.timeline-dots li:nth-child(odd){
+  background-color: var(--vilagoskek);
+}
+  
+.timeline-dots li:nth-child(even) {
+  background-color: var(--sotetkek);
+}
+  
+
+  
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+} */
+
+html, body {
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  background-image: url("../img/hatter.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Raleway;
+  font-weight: 100;
+}
+

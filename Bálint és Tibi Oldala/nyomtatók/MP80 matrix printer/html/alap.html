@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/alap.css">
+    <script src="../js/alap.js"></script>
+    <title>MP 80 matrix printer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--navbar,header rész-->
+<header class="col-12">
+  <nav class="navbar bg-light">
+        <a class = "vissza" href="/kapcsolooldal/html/kapcsolo.html"><button class="gombstilus" role="button"><i class="nyil balra"></i>Viszsa</button></a>
+        <a class="navbar-brand" href="https://www.ckik.hu/">
+          <img src="../kepek/közgázlogó.png" width="138" height="80" id = "logo" class="rounded mx-auto d-block" alt="logo" title="logó">
+        </a>
+      
+    </nav>
+</header>
+<!--navbar, header rész vége-->
+<br><br><br><br>
+<!--Fő rész kezdete-->
+<!--képnézegető/kép kezdete-->
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../kepek/mp80matrixprinter.png" class="d-block w-100 kep" alt="MP 80 matrix printer - kép 1" title="MP 80 matrix printer - kép 1">
+                          </div>
+                        </div>
+                      </div>                    
+                  </div>
+<!--Képnézegető/kép vége-->  
+<!--Táblázat-->
+                  <div class="col-12 col-md-6">
+                    <p class="formazas">
+                      <br><br><br><br><br><br>  
+                      <span id="dots"><table class="table">
+                        <thead>
+                            <tr>
+                            
+                            <th colspan="4">Adatok az eszközről:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Megjelenés ideje:</th>
+                            <td colspan="3">1982</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Tűk száma:</th>
+                            <td colspan="3">9 alap, de akár 24 is</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </span>
+<!--Táblázat vége-->
+<!--bővebben rész-->
+                </div>
+                <span id="more"><div class="container text-center">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1>Történet:</h1>
+                      <p>Az első modell <b>1978 augusztusában</b> jött ki és kezdetben nagy népszerűségnek örvendett Svédországban. Az <b>ABC 80 a személyi számítógépek</b> gyorsan növekvő piacán nagy részesedésre tett szert köszönhetően annak, hogy svéd nyelvű irodai szoftvert kínáltak hozzá. Jóllehet az ABC 80 hívei a gép jó <b>BASIC-jére és jól használható bővítési lehetőségeire</b> hivatkozva később is megpróbálták a gép népszerűségét fenntartani, azonban ez nem sikerülhetett a színes grafikával és jobb hangminőséggel ellátott játékgépek ellenében, amelyek a 80-as évek elején kerültek a piacra. <b>Nem változtatott ezen a tényen az sem</b>, hogy ekkor már egy olcsóbb verziót is kiadtak az ABC 80-ból, ami az eredeti fekete-fehér monitor helyett <b>hagyományos televízióval is működtethető volt.</b></p>
+                    </div>
+                    <div class="col-12">
+                      <h1>Leírás:</h1>
+                      <p>Az ABC 80 a <b>Zilog Z80</b>-on alapult, 3,58 MHz-en működött, <b>16 kb.</b> RAM és <b>16 kb.</b> ROM memóriája volt. A ROM tartalmazott egy bytecode-alapú <b>BASIC interpretert</b> is. A számítógép monitoraként egy, a számítógéphez átalakított <b>fekete-fehér tv</b>-t kínált a gyártó, ami magától értetődő választás volt, hiszen a Luxor AB televíziókat is gyártott. A gép <b>8 bites</b> kimeneti portjára egy <b>Texas Instruments SN76477</b> hangvezérlő csip volt csatlakoztatva, azonban a csip lehetőségeit nem lehetett kihasználni, mert annak vezérlésére <b>nem volt lehetőség</b> az ABC 80-ban, így <b>a gép hangja 256 előre programozott hangeffektusra volt korlátozva.</b></p>
+                    </div>
+                  </div>
+                </div></span></p>
+                <div class="d-grid gap-2 col-6 mx-auto"><!--Bootsrap gomb formazas-->
+                  <br><br>
+                  <button onclick="myFunction()" id="myBtn" type="button" class="gombstilus">Bővebben</button>
+                  <br><br><br><br><br>
+<!--Bővebben rész vége-->
+              </body>
+</html>
