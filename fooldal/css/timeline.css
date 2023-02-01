@@ -28,11 +28,14 @@
 
 }
 
+
+
 header {
   background-color: var(--vilagoskek);
   padding: 10px 20px 10px 10px;
   width: 100%;
-  margin: 0px !important;
+  margin: 5px !important;
+  border-radius: 10px;
 }
 
 header h1 {
@@ -281,9 +284,7 @@ body {
   position: absolute !important;
 }
 
-header{
-  border-radius: 10px;
-}
+
 main{
   margin-top: 15px;
 }
