@@ -39,7 +39,7 @@ header {
 }
 
 header h1 {
-  color: white;
+  color: white; /* Lehet feketén szebben nézne ki*/
   font-size: 32px;
   font-weight: 300;
   margin-top: 0px;
@@ -51,7 +51,7 @@ footer {
   position: fixed;
   bottom: 0.5em;
   left:0px;
-  width: 1920px;
+  width: 1980px;
   text-align: center;
 }
 
@@ -64,7 +64,6 @@ footer h1 {
 .information button {
   position: relative;
   right: 0;
-
 }
 
 
@@ -102,14 +101,15 @@ footer h1 {
 }
 
 .info-img {
-  width: 80px;
+  width: 80px;  /*Lehet majd nagyobbra kell allitani, nincs sok eszkoz ugyan abban az evben (160 egesz jol nez ki)*/
   height: 80px;
   margin: auto;
   /* float: left; */
 }
+
 .info-img img {
   width: 100%;
-  border-radius: 40px;
+  border-radius: 20px; /*Alapbol 40 volt, inkabb kockasitom, hogy a kepek ne legyenek annyira hulyek*/
 }
 
 .info-details {
@@ -137,7 +137,7 @@ footer h1 {
   top:0px;
   left:0px;
   /* display: inline-table; */
-  width:100vw;
+  width: 100vw;
   height: 80vh;
   border: none; 
   color: var(--sotetkek);
@@ -163,7 +163,8 @@ footer h1 {
   width: 100%;
   overflow: hidden;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .timeline-list-wrap {
   /* position: relative;
@@ -172,7 +173,8 @@ footer h1 {
   display: block;
   height: 78vh;
   transform: translate3d(0, 0, 0);
-  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
 
 
 
@@ -208,7 +210,7 @@ footer h1 {
 
 .timeline-dots li.slide-active button {
   color: yellow;
-  font-size: 18px; 
+  font-size: 18px; /*Akar ezt is lehet nagyitani*/ 
 }
 
 .timeline-dots button {
@@ -254,15 +256,16 @@ footer h1 {
   
 
   
-/* 
-* {
+
+/*
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
 } */
 
 html, body {
-  overflow-x: hidden; 
+  overflow-x: hidden;  
   overflow-y: hidden;
 }
 
