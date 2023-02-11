@@ -1,0 +1,23 @@
+Toshiba T3100SX
+
+Tulajdonságok:
+
+A T3100 a Toshiba által 1986-ban kiadott hordozható számítógép volt.
+10 MB -os merevlemezzel, 8 MHz-es Intel 80286 CPU-val és egy kis fogyasztású gázplazma kijelzővel rendelkezett.
+Ez a megjelenítő 640 x 480 as felbontással bírt és 16 árnyalat megjelenítésére volt képes.
+Az alapmodell 640 KB memóriával rendelkezett.
+A T3100e modell 1 MB memóriával rendelkezett, amely 5 MB-ra bővíthető.
+A Toshiba T3100 nem volt igazán hordozható, mert az utolsó verzió kivételével mindegyikhez külső áramforrás kellett.
+
+Öt változat került a piacra:
+
+A T3100/20 lényegében ugyanaz volt, mint az alap T3100, de nagyobb merevlemezzel (10 MB helyett 20 MB).
+A T3100e egy 12 MHz-es 80286 CPU-val rendelkezik (6 MHz-re kapcsolható, 1 MB RAM és 20 MB merevlemez).
+A T3100e/40 ugyanaz volt, mint a T3100e, de nagyobb, 40 MB-os merevlemezzel.
+A T3100SX 16 MHz-es i386SX CPU-val, 1 MB RAM-mal és 40 MB vagy 80 MB merevlemezzel, 640x480x16 árnyalatú fekete-narancssárga gázplazma-kijelzővel vagy fekete-fehér LC-vel, valamint belső újratölthető akkumulátorral szerelhető.</li>
+A J3100 a T3100 változata volt, amelyet csak Japánban forgalmaztak és értékesítettek.
+
+A "BYTE" magazin:
+
+A Byte egy mikroszámítógépes magazin volt , amely az 1970-es évek végén és az 1980-as években működött, nagy hatást gyakorolt a számítógépes piacra. 
+1989-ben a T3100/20-at a BYTE Awards "Distinction" nyertesei közé sorolta, hivatkozva "elképesztően tiszta" kijelzőjére és merevlemezére.

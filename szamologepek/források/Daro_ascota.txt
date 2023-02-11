@@ -1,0 +1,53 @@
+Bevezetés:
+
+A világ a 80-as években jár.
+Az IBM uralta a professzionális számítógépek piacát a PC-vel és a PC XT-vel.
+Ezen eszközök a modern asztali számítógépek előfutárai voltak.
+Az Apple Steve Jobs-sal az élen egymás után adta ki az új számítógép modelleket melyek az átlag felhasználó igényeinek lettek tervezve.
+A Commodore 64 és a ZX Spectrum a legelterjetteb eszközök közé tartozott a világon.
+A modern gépeket figyelmenkívül hagyva a keleti blokk tovább gyártotta az Ascota 170-et.
+Valamiért a Runetben (és az internet többi részén is) nem beszélnek eleget ezekről a csodálatos gépekről.
+Ezek voltak talán az egyetlen sorozatgyártású (1955-1983) Turing-complete mechanikus számító/számoló-gépek voltak.
+
+
+Működése:
+
+Az Ascot 170 olyan, mint egy programozható gép.
+De a „programozható” egy enyhén túlzó fogalom.
+Ascota-kat nagy mennyiségben szállították a Szovjetunióba, és írások tucatjai jelentek meg róluk.
+A gép folyamatosan ciklusban működik, és valahogy támogatja az átmeneteket.
+Az Ascotnak feltételes operátorai vannak.
+Működés közben a gép "kocsija" jobbról balra mozog a gép testéhez képest - mint egy hagyományos írógépen.
+Ezzel egyidejűleg a nyomtatóegység végigcsúszik a papíron.ű
+A programparancs-olvasó egység pedig a program laphoz képest lyukakat üt miköszben csúszik.
+Amelyekbe ütköző csapok vannak beillesztve, akárcsak egy zenedoboz dobjában.
+Egy ponton az olvasási csomópont talál egy oszlopleállítást.
+Ami azt jelenti, hogy „itt meg kell állni, és tenni kell valamit”, megáll, és azt teszi, amit az oszlop többi megállója és a kezelő által lenyomott billentyűk megkívánnak.
+Ha pedig az olvasó csomópont nem talál stoppot a kocsi vége előtt, akkor a kocsi automatikusan egészen jobbra mozog, és újra indul a pásztázás - ilyen a főhurok, amelyben a program vég nélkül pörög.
+A gyakorlatban körülbelül 50 ilyen „kell valamit csinálni” megálló van, azaz program lépés lehet egy táblán. Egy lépésben több parancs is végrehajtható.
+A gép aktívan hozzáfér a regiszterekhez; a regiszterek fogaskerekek sorai a gép testében, így a programmemória (ütközőkkel ellátott tábla) elválik az adat memóriától (regiszter fogaskerekek sorai).
+Összességében a gép ~50 parancs memória lépéssel (~0,3 kB) és 56, egyenként 12 tizedesjegyű egész regiszterrel rendelkezik (további 0,3 kB). A gép egy lépésben beolvashat egy regisztert, kinyomtathatja annak tartalmát, hozzáadhatja vagy kivonhatja több másik regiszterből, és nullára állíthatja.
+Ezzel egyidejűleg néhány lehetőség a nullával való összehasonlításra, valamint számos átmeneti parancs végrehajtásra kerül.
+
+
+"Hibák"/Érdekességek:
+
+Sajnos a gépi kód összetettsége és gazdagsága ellenére számos kellemetlen korlátja van: A gépnek nincsenek szorzási és osztási parancsai.
+Furcsa módon ez nem hiba, hanem szolgáltatás.
+Az egyszerűbb számviteli gépek többsége rendelkezik szorzási paranccsal.
+De az Ascot fejlesztői már az 1950-es évek elején megértették, hogy a mechanika napjai meg vannak számlálva.
+A lassú és ügyetlen mechanikai szorzó helyett egy külső matematikai modul csatlakoztatásának lehetőségét biztosították.
+A gép nem tudja, hogyan kell egy helyet jobbra vagy balra tolni.
+Általánosságban elmondható, hogy a szorzást, osztást és egyéb trükkös matematikát programszerűen meg lehet szervezni; valójában sok modern RISC processzor is ezt teszi.
+Az Ascot is megteheti ezt - de sajnos ehhez el kell tolnia a számot egy számjeggyel, és ilyen parancs nincs megadva.
+Az ugrásjelzők száma korlátozott.
+Egy programnak többször is lehet vissza1, vissza2, előre1 és előre2 címkéje, és a programlépések megjelölhetők végrehajtásként az 1. programban, a 2. programban vagy mindkettőben. Jól hangzik, de egy meglehetősen bonyolult algoritmusról van szó.
+Nem támogatja a tömböket és a közvetett címzést.
+Az Ascotanak sok regisztere van. Gondoljunk csak bele: 50 programlépés van, minden lépéshez csak egy regiszter olvasható (és nyomtatható) - és 56 regiszter van. Azaz elvileg lehetetlen az összes regisztert közvetlenül megcímezni automatikus üzemmódban anélkül, hogy a regiszterszámot a billentyűzetről kiválasztanánk
+
+
+Forrás megjelölés
+
+Forrás:  <a href="https://www.youtube.com/watch?v=9sUsiYnHwqI" target="_blank" alt=A gép működése>https://www.youtube.com/watch?v=9sUsiYnHwqI</a>
+Források és Szójegyzék
+dr.Salamon József hozzájárulásával
