@@ -6,8 +6,7 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
     if (tldr.style.display === "none") {
       fullText.style.transition = "none";
       tldr.style.transition = "none";
-
-
+  
       tldr.style.opacity = "0";
       tldr.style.height = "0";
       tldr.style.overflow = "hidden";
@@ -23,15 +22,16 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
         setTimeout(function() {
           tldr.style.opacity = "1";
           tldr.style.height = tldr.scrollHeight + "px";
-          tldr.style.overflow = "visible";
+          tldr.style.overflow = "hidden";
+          fullText.style.height = null;
+          fullText.style.opacity = null;
+          fullText.style.overflow = null;
         }, 0);
       }, 500);
     } else {
-        fullText.style.transition = "none";
-        tldr.style.transition = "none";
-
-
-
+      fullText.style.transition = "none";
+      tldr.style.transition = "none";
+  
       fullText.style.opacity = "0";
       fullText.style.height = "0";
       fullText.style.overflow = "hidden";
@@ -47,7 +47,10 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
         setTimeout(function() {
           fullText.style.opacity = "1";
           fullText.style.height = fullText.scrollHeight + "px";
-          fullText.style.overflow = "visible";
+          fullText.style.overflow = "hidden";
+          tldr.style.height = null;
+          tldr.style.opacity = null;
+          tldr.style.overflow = null;
         }, 0);
       }, 500);
     }
