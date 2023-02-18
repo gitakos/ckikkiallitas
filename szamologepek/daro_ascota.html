@@ -10,6 +10,11 @@
     <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
     <!--link rel="stylesheet" href="../../style.css"-->
     <title>CKIK - Machintos LC II.</title>
+    <style>
+        .tldr, .full-text{
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="information">
@@ -23,7 +28,10 @@
                     <div class="col-12 col-sm-8 szoveg">
                         <h2>Az eszközről</h2>
                         <hr>
-                        <p>
+                        <button onclick="toggleFullText('tldr1', 'fullText1')">Read More</button>
+
+                        <span id="tldr1" class="tldr" >TLDR teszt</span>
+                        <span id="fullText1" class="full-text" style="display: none;">
                           A világ a 80-as években jár.
                           Az IBM uralta a professzionális számítógépek piacát a PC-vel és a PC XT-vel.
                           Ezen eszközök a modern asztali számítógépek előfutárai voltak.
@@ -32,11 +40,12 @@
                           A modern gépeket figyelmenkívül hagyva a keleti blokk tovább gyártotta az Ascota 170-et.
                           Valamiért a Runetben (és az internet többi részén is) nem beszélnek eleget ezekről a csodálatos gépekről.
                           Ezek voltak talán az egyetlen sorozatgyártású (1955-1983) Turing-complete mechanikus számító/számoló-gépek voltak.
-
-                        </p>
+                        </span>
                         <h2>Működése</h2>
                         <hr>
-                        <p> 
+                        <button onclick="toggleFullText('tldr2', 'fullText2')">Read More</button>
+                        <span id="tldr2" class="tldr" >TLDR teszt</span>
+                        <span id="fullText2" class="full-text" style="display: none;"> 
                           Az Ascot 170 olyan, mint egy programozható gép.
                           De a „programozható” egy enyhén túlzó fogalom.
                           Ascota-kat nagy mennyiségben szállították a Szovjetunióba, és írások tucatjai jelentek meg róluk.
@@ -52,10 +61,13 @@
                           A gyakorlatban körülbelül 50 ilyen „kell valamit csinálni” megálló van, azaz program lépés lehet egy táblán. Egy lépésben több parancs is végrehajtható.
                           A gép aktívan hozzáfér a regiszterekhez; a regiszterek fogaskerekek sorai a gép testében, így a programmemória (ütközőkkel ellátott tábla) elválik az adat memóriától (regiszter fogaskerekek sorai).
                           Összességében a gép ~50 parancs memória lépéssel (~0,3 kB) és 56, egyenként 12 tizedesjegyű egész regiszterrel rendelkezik (további 0,3 kB). A gép egy lépésben beolvashat egy regisztert, kinyomtathatja annak tartalmát, hozzáadhatja vagy kivonhatja több másik regiszterből, és nullára állíthatja.
-                        </p>
+                        </span>
                         <h2>"Hibák"/Érdekességek</h2>
                         <hr>
-                        <p>
+                        <button onclick="toggleFullText('tldr3', 'fullText3')">Read More</button>
+                        <span id="tldr3" class="tldr" >TLDR teszt</span>
+
+                        <span id="fullText3" class="full-text" style="display: none;"> 
                           Sajnos a gépi kód összetettsége és gazdagsága ellenére számos kellemetlen korlátja van: A gépnek nincsenek szorzási és osztási parancsai.
                           Furcsa módon ez nem hiba, hanem szolgáltatás.
                           Az egyszerűbb számviteli gépek többsége rendelkezik szorzási paranccsal.
@@ -68,7 +80,7 @@
                           Egy programnak többször is lehet vissza1, vissza2, előre1 és előre2 címkéje, és a programlépések megjelölhetők végrehajtásként az 1. programban, a 2. programban vagy mindkettőben. Jól hangzik, de egy meglehetősen bonyolult algoritmusról van szó.
                           Nem támogatja a tömböket és a közvetett címzést.
                           Az Ascotanak sok regisztere van. Gondoljunk csak bele: 50 programlépés van, minden lépéshez csak egy regiszter olvasható (és nyomtatható) - és 56 regiszter van. Azaz elvileg lehetetlen az összes regisztert közvetlenül megcímezni automatikus üzemmódban anélkül, hogy a regiszterszámot a billentyűzetről kiválasztanánk
-                        </p>
+                        </span>
                     </div>
                     <!-- d-none d-sm-block -->
                     <div class=" col-12 col-sm-4 "> 
@@ -151,4 +163,5 @@
         </p>    
     </div>		
 </body>
+<script src="/tldr.js"></script>
 </html>
