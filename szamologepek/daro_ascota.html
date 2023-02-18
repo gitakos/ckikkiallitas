@@ -22,10 +22,10 @@
                 <div class="row">
                     <div class="col-12 col-sm-8 szoveg">
                         <h2>Az eszközről</h2>
-                        <button id="button1" class="tldrbutton" onclick="toggleFullText('tldr1', 'fullText1','button1')">Hosszabban</button>
+                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Hosszabban</button>
                         <hr>
                         <div>
-                            <span id="tldr1" class="tldr" >Az IBM PC és az Apple számítógépek az 1980-as években alapozták meg az asztali számítógépek elterjedését. A Commodore 64 és a ZX Spectrum pedig a legnépszerűbb otthoni számítógépek voltak a korszakban. Az Ascota 170 pedig az egyetlen sorozatgyártású Turing-complete mechanikus számítógép volt.</span>
+                            <span id="tldr1" class="tldr" style="transition: opacity 0.5s ease 0s, height 0.5s ease 0s; display: block; opacity: 1; height: 53px; overflow: hidden;">Az IBM PC és az Apple számítógépek az 1980-as években alapozták meg az asztali számítógépek elterjedését. A Commodore 64 és a ZX Spectrum pedig a legnépszerűbb otthoni számítógépek voltak a korszakban. Az Ascota 170 pedig az egyetlen sorozatgyártású Turing-complete mechanikus számítógép volt.</span>
                             <span id="fullText1" class="full-text" style="display: none;">
                                 A világ a 80-as években jár.
                                 Az IBM uralta a professzionális számítógépek piacát a PC-vel és a PC XT-vel.
@@ -41,7 +41,7 @@
                         <button id="button2" class="tldrbutton" onclick="toggleFullText('tldr2', 'fullText2','button2')">Hosszabban</button>
                         <hr>
                         <div>
-                            <span id="tldr2" class="tldr" >Az Ascot 170 egy programozható gép, amelyet nagy mennyiségben szállítottak a Szovjetunióba. A gép folyamatosan működik és a program laphoz képest lyukakat olvas be, amelyek hatására megáll és végrehajtja a parancsokat. A gép aktívan hozzáfér a regiszterekhez és 50 memória lépéssel és 56 regiszterrel rendelkezik. Egy lépésben több parancs is végrehajtható, mint például adás, kivonás, nyomtatás vagy nullázás.</span>
+                            <span id="tldr2" class="tldr"  style="transition: opacity 0.5s ease 0s, height 0.5s ease 0s; display: block; opacity: 1; height: 53px; overflow: hidden;">Az Ascot 170 egy programozható gép, amelyet nagy mennyiségben szállítottak a Szovjetunióba. A gép folyamatosan működik és a program laphoz képest lyukakat olvas be, amelyek hatására megáll és végrehajtja a parancsokat. A gép aktívan hozzáfér a regiszterekhez és 50 memória lépéssel és 56 regiszterrel rendelkezik. Egy lépésben több parancs is végrehajtható, mint például adás, kivonás, nyomtatás vagy nullázás.</span>
                             <span id="fullText2" class="full-text" style="display: none;"> 
                             Az Ascot 170 olyan, mint egy programozható gép.
                             De a „programozható” egy enyhén túlzó fogalom.
@@ -64,7 +64,7 @@
                         <button id = "button3" class="tldrbutton" onclick="toggleFullText('tldr3', 'fullText3','button3')">Hosszabban</button>
                         <hr>
                         <div>
-                            <span id="tldr3" class="tldr" >Az Ascot számítógép bár rendelkezik bonyolult kódokkal, számos korlátja van, például nincsenek szorzási és osztási parancsai, helyettük egy külső matematikai modulra támaszkodik. Az ugrásjelzők száma korlátozott, és nem támogatja a tömböket és a közvetett címzést. Bár sok regisztere van, az összes regisztert közvetlenül nem lehet megcímezni automatikus üzemmódban. Az Ascot fejlesztői azonban már az 1950-es évek elején felismerték, hogy a mechanika korlátai miatt a számítástechnika jövője az elektronikában van.</span>
+                            <span id="tldr3" class="tldr"style="transition: opacity 0.5s ease 0s, height 0.5s ease 0s; display: block; opacity: 1; height: 53px; overflow: hidden;" >Az Ascot számítógép bár rendelkezik bonyolult kódokkal, számos korlátja van, például nincsenek szorzási és osztási parancsai, helyettük egy külső matematikai modulra támaszkodik. Az ugrásjelzők száma korlátozott, és nem támogatja a tömböket és a közvetett címzést. Bár sok regisztere van, az összes regisztert közvetlenül nem lehet megcímezni automatikus üzemmódban. Az Ascot fejlesztői azonban már az 1950-es évek elején felismerték, hogy a mechanika korlátai miatt a számítástechnika jövője az elektronikában van.</span>
                             <span id="fullText3" class="full-text" style="display: none;"> 
                             Sajnos a gépi kód összetettsége és gazdagsága ellenére számos kellemetlen korlátja van: A gépnek nincsenek szorzási és osztási parancsai.
                             Furcsa módon ez nem hiba, hanem szolgáltatás.
@@ -81,6 +81,7 @@
                             </span>
                         </div>
                     </div>
+                    
                     <!-- d-none d-sm-block -->
                     <div class=" col-12 col-sm-4 "> 
                         <div class="table-wrapper">
