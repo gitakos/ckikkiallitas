@@ -82,6 +82,7 @@ footer h1 {
   color: black;
   font-weight: 400;
   overflow-y: auto;
+  overflow-x: hidden !important;
 }
 .btn {
   color: var(--sotetkek) !important;
