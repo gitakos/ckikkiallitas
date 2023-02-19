@@ -15,7 +15,7 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
       fullText.style.height = "0";
       fullText.style.overflow = "hidden";
       fullText.style.transition = "opacity 0.5s ease, height 0.5s ease";
-      button.innerHTML = "Hosszabban";
+      button.innerHTML = "Mutass többet";
       setTimeout(function() {
         tldr.style.display = "block";
         fullText.style.display = "none";
@@ -40,7 +40,7 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
       tldr.style.height = "0";
       tldr.style.overflow = "hidden";
       tldr.style.transition = "opacity 0.5s ease, height 0.5s ease";
-      button.innerHTML = "Rövidebben";
+      button.innerHTML = "Kevesebb";
       setTimeout(function() {
         fullText.style.display = "block";
         tldr.style.display = "none";

@@ -4,71 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fooldal/css/timeline.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <!--link rel="stylesheet" href="../../style.css"-->
+    <title>CKIK - Machintos LC II.</title>
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
+    <div class="information">
+        <header>
+            <h1>HP Portable Vectra CS</h1>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 szoveg">
+                        <h2>Funkciói</h2>
+                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="transition: opacity 0.5s ease 0s, height 0.5s ease 0s; display: block; opacity: 1; height: 53px; overflow: hidden;">Egy IBM PC/XT-kompatibilis számítógépről van szó, amelynek van egy összecsukható rekesze, amiben két rugalmas lemezmeghajtó található. 4 I/O bővítőhellyel rendelkezik további adapterek csatlakoztatásához. A számítógép külső hálózati adapterrel vagy akkumulátorral működik, amelyet közvetlenül az akkumulátor csomaghoz lehet csatlakoztatni. A kijelző egy 12" sárga-zöld monokróm LCD kijelző, amely eltávolítható, hogy külső monitort használjunk.</span>
+                            <span id="fullText1" class="full-text" style="display: none;">
+                              IBM PC/XT kompatibilis személyi és hordozható számítógép 7,16 Mhz-es, 16 bites, 8086-kompatibilis NEC V30 processzorral és 640 Kbyte szabványos RAM-mal.
+                              Található benne egy összecsukható rekesz két 1,44 Mbyte, 3,5"-os rugalmas lemezmeghajtóval (A HP Portable Vectra CS 20-as modellje egy 1,44 Mbyte-os rugalmas lemezmeghajtóval és egy 20 Mbyte-os merevlemezzel rendelkezik).
+                              Ezenkívül rendelkezik 4 I/O bővítőhellyel további adapterek, például memória, modem és soros adapterek csatlakoztatásához.
+                              Az egyik bővítőhely egy kijelző/nyomtató adapter RGB monitor interfésszel és egy 25-pines Centronics típusú párhuzamos interfésszel külső monitor és nyomtató csatlakoztatásához.
+                              A számítógép külső hálózati adapterrel vagy akkumulátorral működik. Az akkumulátort használat közben is újra lehet tölteni, ha külön csatlakoztatjuk az adaptert közvetlenül az akkumulátor csomaghoz.
+                              Az akkumulátor csomag saját LCD kijelzővel rendelkezik, ami mutatja az akkumulátor töltöttségét.
+                              Kijelző:
+                              A kijelző egy 12" sárga-zöld szűrős monokróm LCD kijelző állítható dőlésszöggel és kontraszttal.
+                              IBM CGA és MDA kompatibilis, emelett 32 KByte dedikált RAM-mal rendelkezik.
+                              A láthatóság elég rossz a háttérvilágítás hiánya miatt.
+                              Eltávolíthatja az LCD-kijelzőt, hogy külső monitort használhasson, és a számítógépet "asztali" verzióvá alakíthassa, ami az IBM PC Convertible 5120-hoz hasonló.
+                            </span>
+                        </div>
+                        <h2>Kijelző</h2>
+                        <button id="button2" class="tldrbutton" onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr2" class="tldr"  style="transition: opacity 0.5s ease 0s, height 0.5s ease 0s; display: block; opacity: 1; height: 53px; overflow: hidden;">A 12" sárga-zöld monokróm LCD kijelző állítható dőlésszöggel és kontraszttal, IBM CGA és MDA kompatibilis, de a láthatóság rossz a háttérvilágítás hiánya miatt. Lehet külső monitorral használni, és asztali verzióvá alakítani.</span>
+                            <span id="fullText2" class="full-text" style="display: none;"> 
+                              A kijelző egy 12" sárga-zöld szűrős monokróm LCD kijelző állítható dőlésszöggel és kontraszttal.
+                              IBM CGA és MDA kompatibilis, emelett 32 KByte dedikált RAM-mal rendelkezik.
+                              A láthatóság elég rossz a háttérvilágítás hiánya miatt.
+                              Eltávolíthatja az LCD-kijelzőt, hogy külső monitort használhasson, és a számítógépet "asztali" verzióvá alakíthassa, ami az IBM PC Convertible 5120-hoz hasonló.
+                            </span> 
+                        </div>
+                        <h2>Billentyűzet</h2>
+                        <button id = "button3" class="tldrbutton" onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr3" class="tldr"style="transition: opacity 0.5s ease 0s, height 0.5s ease 0s; display: block; opacity: 1; height: 53px; overflow: hidden;" >A 92 billentyűs billentyűzetnek külön numerikus billentyűzete van. Kompatibilis az IBM Enhanced PC billentyűzettel, és rendelkezik programozható funkciógombokkal és LED-ekkel a billentyűzet módok jelzéséhez.</span>
+                            <span id="fullText3" class="full-text" style="display: none;"> 
+                              92 billentyűs billentyűzet külön numerikus billentyűzettel.
+                              Kompatibilis az IBM Enhanced PC billentyűzettel, kivéve a speciális kurzor/numerikus billentyűzet mód megváltoztatására szolgáló billentyű.
+                              12 programozható funkciógombbal és 4 jelző LED-del rendelkezik a Caps Lock, Num Lock, Scroll Lock és Kurzor/Numerikus billentyűzet módhoz.
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- d-none d-sm-block -->
+                    <div class=" col-12 col-sm-4 "> 
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td colspan="2">
+                                          <div id="carouselExample" class="carousel slide">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                  <img src="../kepek/szamitogep/HP Portable/front.JPG" class="d-block w-100" alt="A laptop kinyitva, előlnézetből" title="A laptop kinyitva, előlnézetből">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/HP Portable/left_side.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/HP Portable/right_side.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
+                                                </div>
+                                              </div>
+                                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Következő</span>
+                                              </button>
+                                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Előzö</span>
+                                              </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablasorcim">Gyártó</td>
+                                        <td>Hewlett-Packard</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Származása</td>
+                                        <td>USA</td>
+    
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Bemutatva</td>
+                                        <td>1987</td>
+    
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Modell</td>
+                                        <td>Portable Vectra CS, product code HP D1001A</td>
+    
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Felbontás</td>
+                                        <td>Karakter mód: 25 sor x 80 karakter 8 x  16 pontos cellákban <br>
+                                          Grafikus mód: 640 x 400 bit leképezett pixel.</td>
+    
+                                    </tr>
+                                    <tr>
+                                      <td class="tablasorcim">Fő chipek</td>
+                                      <td>6 bites Intel 8086 mikroprocesszor @ 7,16 Mhz és egy 8087-es socket numerikus társprocesszor beillesztéséhez.</td>
+  
+                                  </tr>
+                                  <tr>
+                                    <td class="tablasorcim">Mérete</td>
+                                    <td>420x353x90 mm, 8 kg</td>
 
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
-
-
-    </ul>
-
-  </div>
-
-
-    </div>
-  </div>   
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-12 col-sm-8"> 
+                        <h2>Fordította:</h2>
+                            <hr>
+                            <p>Krausz Márton</p>    
+                            <h2>Forrás:</h2>
+                            <hr>
+                            <a href="http://www.curtamania.com/curta/database/brand/hewlett_packard/HP%20Portable%20Vectra%20CS/index.html" target="_blank">Curtamania.com</a>
+                      </div>
+                </div>
+            </div>
+        </main>
+        <p style="text-align: right;">
+            <button type="button" class="btn btn-secondary" onclick="location.href='../fooldal/index.html';">Vissza</button>
+        </p>    
+    </div>		
 </body>
+<script src="/tldr.js"></script>
 </html>
