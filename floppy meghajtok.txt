@@ -1,0 +1,40 @@
+Floppy lemezek
+
+Bevezetés:
+Nevének jelentése -> hajékony lemez
+A floppy lemez egy adat tároló eszköz volt. 
+Az IBM fejlesztette ki és az 1970-90-es évekbe volt elterjedt. 
+A 2000-res évek végére teljesen ki szorították. 
+Ezért nagyrészt az optikai és a flash meghajtók voltak a felelősek.
+
+Működése:
+Az adatokat egy hajékony mágneses felülettel bevont lágy műanyag lemezen tárolják.
+Amikor a lemezt egy olvasóba tesszük az elkezdi forgatni ez a forgás centrifugális erőt generál és így a lemez viszonylag merev és sima lesz.
+E miatt le lehet róla olvasni az adatokat.
+A kemény műanyag tokot nem szabad róla eltávolítani hiszen az védi meg a sérülékeny lemezt.
+Forgatáshoz a tokra a gyártó megfelelő helyen lyukat vág.
+
+Főbb verziói:
+Eleinte a 8 hüvelykes floppyk voltak elterjedve. 
+Ezek kapacitása modelltől függően 160-500KiB (kibibájt <a>url(https://simple.wikipedia.org/wiki/Kibibyte)</a>) volt.
+A második és az elterjedtebb verzió volt az 5 és 1/4 hüvelykes az az 133*133mm-es. 
+Ez a formátum tette az átlag felhasználónak is elérhetővé a floppy-t mivel az ehhez való olvasók megfizethetővé váltak.
+A tárolási kapacitás változott a használt géptől függően pl.:
+"Az 5 1/4" méretű lemezek járatos tárolási kapacitása a 8 bites Commodore gépeknél 170 KiB, PC-knél 360 KiB és 1,2 MiB, Commodore Amigánál 440, 880 és 1760 KiB."
+-wikipedia
+
+Napjainkban:
+Sok helyen még magyarországon a hivatalokban használják.
+A 30 éve kiépített rendszerek még teljesen funkcionálisak, nem a legjobbak/gyorsabbak de még használhatóak és amiatt nem lett lecserélve.
+Például az USA-ban a légierő a nukleáris silókban még floppykat használ.
+Kérdezheti az ember hogy miért?
+A válasz az lenne, hogy egyszer nincs rá szükség mert mint már említve volt fentebb elvégzik a feladatot.
+Másodszor a mai technológiával nehéz lenne le modellezni a biztonságot amit ez a rendszer nyújt.
+Harmadszor ezek a rendszerek már bizonyítottak a megbízhatóságukról ami talán a legfontosabb szempont az atom fegyverek kezelésével kapcsolatban.
+És nem utolsó sorban mivel ezek a rendszerek amik floppy-t használnak nem kapcsolódnak az internethez így a kiber támadások veszélye is alacsony.
+
+Forrás:
+https://hu.wikipedia.org/wiki/Hajl%C3%A9konylemez
+https://www.digitaltrends.com/computing/why-do-floppy-disks-still-exist-the-world-isnt-ready-to-move-on/
+Fordította/Fogalmazta:
+Krausz Márton
