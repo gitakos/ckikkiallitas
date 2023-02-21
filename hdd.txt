@@ -1,0 +1,50 @@
+HDD
+
+Bevezetés:
+Neve:
+HDD ami angolul -> Hard Disk Drive.
+Ez magyarra fordítva merevlemezt jelent.
+Ez is egy adat tároló eszköz amit még a mai napig használunk.
+
+Működése:
+Az adatokat egy mágnesezhető fém lemezen tárolja.
+Ezt a lemezt adat lekéréskor egy író/olvasó fej írja vagy olvassa.
+Ezek a lemezek(több is lehet) folyamatosan forognak.
+A forgási sebességet RPM-ben mérik az-az Revolutions Per Minute -> percenkénti fordulatszám.
+A fej körübelül 1nm (nano meter)-es légpárnán "repül" a lemez felett.
+Pontosan emiatt a kis távolság miatt a legapróbb porszem is tönkre teheti vagy károsíthatja az eszküzt.
+E miatt a hdd-ket úgy nevezett tisztaterekben szerelik össze ahol semmi szennyeződés nincs így nem kerülhet be semmi a belsejébe az adattárolónak.
+
+Részei:
+Több lemez is lehet.
+A lemezek mindkét oldalán van adat tárolva ezért van egy alsó és felső író és olvasó fej.
+A lemezt úgy nevezett Trackerek(különböző sugarú körök) alkotják/fedik.
+Ezeket a Trackereket a lemez formázásával eggyüt csoportosítják, clusterekbe helyezik.
+
+Jellemzői:
+Nagyon nagy mennyiségű adatot képesek tárolni jelenleg(2023.02.21) a legnagyobb kapacitású az 26TB.
+Ez persze a jövőben változhat. Az SSD-k már ezt meg haladták akár 100TB-os kapacitássukkal.
+Az írási és olvasási sebesség a fordulat számámtól és az adatsűrűségtől egyaránt függ.
+Csatoló felületek: ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI), FC (Fiber Channel).
+
+Kapcsolódó fogalmak:
+Particionálás(lenyitni):
+merevlemez több logikai meghajtóra való felosztást patricionálásnak nevezzük.
+
+Formattálás(lenyitni):
+Adat tárolására alkalmas sávok létrehozása.
+
+Töredezettség(lenyitni):
+A HDD-n lévő fájlok egy idő után logikailag töredezetté válnak.
+Oka az, hogy a merevlemez nem tud egy szektornál kisebb egységet címezni, így amikor ír egy fájlt, és az nem tölti be teljesen a szektort, kihasználatlan hely keletkezik.
+A merevlemez lassulását az okozza, hogy amikor ír egy adott információt, de a következő szektor foglalt, akkor ettől a szektortól egy távolabbi üres szektorba kell raknia a fájl további részét – az író/olvasó fejnek mozognia kell, hogy elérje – és ez lassabb elérési időt okoz.
+Ezt az állapotot töredezettségnek vagy fragmentáltságnak nevezzük.
+Ezt különböző szoftverek segítségével, töredezettségmentesítő, defragmentáló programokkal könnyen lehet orvosolni.
+(igen ez wiki ctrl c/ctrl v)
+
+Napjainkban:
+A hhd-k szinte minden pcben megtalálhatóak.
+Közkedveltek mivel ez a legolcsóbb mód nagy mennyiségű adat tárolására(kb fele annyiba kerül mint az ssd ár/tárhely)
+A mobil eszközökből viszont már teljesen kiszorultak mivel nagy méretük és energia fogyasztásuk előnytelenné tette őket az ssd-kel szemben.
+
+
