@@ -4,71 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fooldal/css/timeline.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <!--link rel="stylesheet" href="../../style.css"-->
+    <title>CKIK - Machintos LC II.</title>
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
+    <div class="information">
+        <header>
+            <h1>Toshiba T3100SX</h1>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 szoveg">
+                        <h2>Tulajdonságok</h2>
+                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="display: block;">
+                              A Toshiba T3100 egy 1986-ban kiadott, hordozható számítógép, 8 MHz-es CPU-val, 10 MB merevlemezzel és 640 x 480-as gázplazma kijelzővel. Bár "hordozható", de külső áramforrást igényelt, az alapmodell 640 KB, a T3100e 1 MB memóriával bővíthető volt 5 MB-ra.</span>
+                            <span id="fullText1" class="full-text" style="display: none;">
+                              A T3100 a Toshiba által 1986-ban kiadott hordozható számítógép volt.
+                              10 MB -os merevlemezzel, 8 MHz-es Intel 80286 CPU-val és egy kis fogyasztású gázplazma kijelzővel rendelkezett.
+                              Ez a megjelenítő 640 x 480 as felbontással bírt és 16 árnyalat megjelenítésére volt képes.
+                              Az alapmodell 640 KB memóriával rendelkezett.
+                              A T3100e modell 1 MB memóriával rendelkezett, amely 5 MB-ra bővíthető.
+                              A Toshiba T3100 nem volt igazán hordozható, mert az utolsó verzió kivételével mindegyikhez külső áramforrás kellett.
+                            </span>
+                        </div>
+                        <div class="temp">
+                          <h2>Öt változat került a piacra</h2>
+                          <button id="button2" class="tldrbutton" onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
+                        </div>
+                          <hr>
+                        <div>
+                            <span id="tldr2" class="tldr"  style="display: block;">
+                                A T3100/20 nagyobb merevlemezzel rendelkező változata volt az alap T3100-nak. <br>
+                                A T3100e egy erősebb CPU-val, nagyobb merevlemezzel és 1 MB RAM-mal rendelkezett. <br>
+                                A T3100e/40 ugyanaz volt, csak nagyobb merevlemezzel. <br>
+                                A T3100SX egy i386SX CPU-val, nagyobb merevlemezzel és jobb kijelzővel rendelkező laptop volt, belső akkumulátorral. <br>
+                                A J3100 csak Japánban volt kapható. <br>
+                            </span>
+                            <span id="fullText2" class="full-text" style="display: none;"> 
+                              A T3100/20 lényegében ugyanaz volt, mint az alap T3100, de nagyobb merevlemezzel (10 MB helyett 20 MB). <br>
+                              A T3100e egy 12 MHz-es 80286 CPU-val rendelkezik (6 MHz-re kapcsolható, 1 MB RAM és 20 MB merevlemez). <br>
+                              A T3100e/40 ugyanaz volt, mint a T3100e, de nagyobb, 40 MB-os merevlemezzel. <br>
+                              A T3100SX 16 MHz-es i386SX CPU-val, 1 MB RAM-mal és 40 MB vagy 80 MB merevlemezzel, 640x480x16 árnyalatú fekete-narancssárga gázplazma-kijelzővel vagy fekete-fehér LC-vel, valamint belső újratölthető akkumulátorral szerelhető. <br>
+                              A J3100 a T3100 változata volt, amelyet csak Japánban forgalmaztak és értékesítettek. <br>
+                            </span> 
+                        </div>
+                        <h2>A "BYTE" magazin</h2>
+                        <button id = "button3" class="tldrbutton" onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr3" class="tldr"style="display: block;" >
+                              A Byte nevű mikroszámítógépes magazin nagy hatással volt a számítógépes piacra az 1970-es és 1980-as években.
+                               A T3100/20-as számítógépet 1989-ben "Distinction" (kiválóság) díjra jelölték a BYTE Awards-on,
+                                ami a "lenyűgözően tiszta" kijelzőjére és merevlemezére utalt.</span>
+                            <span id="fullText3" class="full-text" style="display: none;"> 
+                              A Byte egy mikroszámítógépes magazin volt , amely az 1970-es évek végén és az 1980-as években működött, nagy hatást gyakorolt a számítógépes piacra. 
+                              1989-ben a T3100/20-at a BYTE Awards "Distinction" nyertesei közé sorolta, hivatkozva "elképesztően tiszta" kijelzőjére és merevlemezére.
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- d-none d-sm-block -->
+                    <div class=" col-12 col-sm-4 "> 
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td colspan="2">
+                                          <div id="carouselExample" class="carousel slide">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                  <img src="../kepek/szamitogep/Toshiba T3100/front.JPG" class="d-block w-100" alt="A laptop kinyitva, előlnézetből" title="A laptop kinyitva, előlnézetből">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/Toshiba T3100/side_a.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/Toshiba T3100/side_b.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
+                                                </div>
+                                              </div>
+                                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Következő</span>
+                                              </button>
+                                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Előzö</span>
+                                              </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablasorcim">Gyártó</td>
+                                        <td>Toshiba</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Származása</td>
+                                        <td>Japán</td>
+    
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Bemutatva</td>
+                                        <td>1986</td>
+    
+                                    </tr>
 
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
+                                    <tr>
+                                        <td class="tablasorcim">Felbontás</td>
+                                        <td>640 x 480px</td>
+    
+                                    </tr>
+                                    <tr>
+                                      <td class="tablasorcim">Fő chipek</td>
+                                      <td>8 MHz-es Intel 80286 processzor</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="tablasorcim">Tárhely</td>
+                                    <td>10 MB -os merevlemez</td>
+                                </tr>
+                                <tr>
+                                  <td class="tablasorcim">Memoria</td>
+                                  <td>640 KB</td>
 
-
-    </ul>
-
-  </div>
-
-
-    </div>
-  </div>   
+                              </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-12 col-sm-8"> 
+                            <h2>Forrás:</h2>
+                            <hr>
+                            <a href="https://en.wikipedia.org/wiki/Toshiba_T3100" target="_blank">Wikipedia.com</a>
+                      </div>
+                </div>
+            </div>
+        </main>
+        <p style="text-align: right;">
+            <button type="button" class="btn btn-secondary" onclick="location.href='../fooldal/index.html';">Vissza</button>
+        </p>    
+    </div>		
 </body>
+<script src="/tldr.js"></script>
 </html>

@@ -315,8 +315,8 @@ tr:hover {
 
 .carousel-item img{
   align-content: flex-start;
-  max-width: 600px; /*a szamokkal kell meg szenvedni hogy jol nezzen ki fullhd monitoron media@ is lehetne hasznalni*/
-  max-height: 320px;
+  max-width: auto; /*a szamokkal kell meg szenvedni hogy jol nezzen ki fullhd monitoron media@ is lehetne hasznalni*/
+  max-height: max-content;
   /* object-fit: cover; */
 }
 
@@ -350,18 +350,38 @@ footer>h1, .info-item{
 	cursor: pointer;
 }
 
-/* .tldr, .full-text{
-
-} */
-
 h2{
   margin-top: .5vw;
   margin-right: 10px;
   display: inline-block;
 }
 
-.tldrbutton:hover{
-  background-color: var(--hatterszurke);
+
+
+.tldrbutton {
+  background-color: var(--vilagoskek);
+  border: 2px solid var(--sotetkek);
+  color: var(--feher);
+  padding: 8px 15px;
+  font-size: 16px;
+  font-family: Verdana, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.tldrbutton:hover {
+  background-color: var(--szekrenyszurke);
+  border-color: var(--vilagoskek);
+  color: var(--feher);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
 
+.tldrbutton:active {
+  background-color: var(--sotetkek);
+  border-color: var(--vilagoskek);
+  color: var(feher);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
