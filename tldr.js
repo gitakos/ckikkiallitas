@@ -2,15 +2,22 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
     var tldr = document.getElementById(tldrId);
     var fullText = document.getElementById(fullTextId);
     var button = document.getElementById(buttonId);
+    tldr.style.overflow="hidden";
+    fullText.style.overflow="hidden";
+    tldr.style.height = tldr.scrollHeight + "px";
+    fullText.style.height = fullText.scrollHeight + "px";
+    tldr.style.transition = "opacity 0.5s ease, height 0.5s ease";
+    fullText.style.transition = "opacity 0.5s ease, height 0.5s ease";
+
+
+
   
     if (tldr.style.display === "none") {
   
       tldr.style.opacity = "0";
       tldr.style.height = "0";
-      tldr.style.transition = "opacity 0.5s ease, height 0.5s ease";
       fullText.style.opacity = "0";
       fullText.style.height = "0";
-      fullText.style.transition = "opacity 0.5s ease, height 0.5s ease";
       button.innerHTML = "Mutass többet";
       setTimeout(function() {
         tldr.style.display = "block";
@@ -24,10 +31,8 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
   
       fullText.style.opacity = "0";
       fullText.style.height = "0";
-      fullText.style.transition = "opacity 0.5s ease, height 0.5s ease";
       tldr.style.opacity = "0";
       tldr.style.height = "0";
-      tldr.style.transition = "opacity 0.5s ease, height 0.5s ease";
       button.innerHTML = "Kevesebb";
       setTimeout(function() {
         fullText.style.display = "block";
