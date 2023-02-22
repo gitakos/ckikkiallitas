@@ -14,55 +14,71 @@
 <body>
     <div class="information">
         <header>
-            <h1>Merevlemet meghajtók</h1>
+            <h1>Merevlemez</h1>
         </header>
         <main>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-8 szoveg">
-                        <h2>Funkciói</h2>
+                        <h2>Bevezetés</h2>
                         <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
                         <hr>
                         <div>
-                            <span id="tldr1" class="tldr" style="display: block;">Egy IBM PC/XT-kompatibilis számítógépről van szó, amelynek van egy összecsukható rekesze, amiben két rugalmas lemezmeghajtó található. 4 I/O bővítőhellyel rendelkezik további adapterek csatlakoztatásához. A számítógép külső hálózati adapterrel vagy akkumulátorral működik, amelyet közvetlenül az akkumulátor csomaghoz lehet csatlakoztatni. A kijelző egy 12" sárga-zöld monokróm LCD kijelző, amely eltávolítható, hogy külső monitort használjunk.</span>
+                            <span id="tldr1" class="tldr" style="display: block;">A "floppy lemez" a 70-90-es években elterjedt adattároló eszköz volt, melyet az IBM fejlesztett ki. A 2000-es évek végére teljesen kiszorították az optikai és flash meghajtók.</span>
                             <span id="fullText1" class="full-text" style="display: none;">
-                              IBM PC/XT kompatibilis személyi és hordozható számítógép 7,16 Mhz-es, 16 bites, 8086-kompatibilis NEC V30 processzorral és 640 Kbyte szabványos RAM-mal.
-                              Található benne egy összecsukható rekesz két 1,44 Mbyte, 3,5"-os rugalmas lemezmeghajtóval (A HP Portable Vectra CS 20-as modellje egy 1,44 Mbyte-os rugalmas lemezmeghajtóval és egy 20 Mbyte-os merevlemezzel rendelkezik).
-                              Ezenkívül rendelkezik 4 I/O bővítőhellyel további adapterek, például memória, modem és soros adapterek csatlakoztatásához.
-                              Az egyik bővítőhely egy kijelző/nyomtató adapter RGB monitor interfésszel és egy 25-pines Centronics típusú párhuzamos interfésszel külső monitor és nyomtató csatlakoztatásához.
-                              A számítógép külső hálózati adapterrel vagy akkumulátorral működik. Az akkumulátort használat közben is újra lehet tölteni, ha külön csatlakoztatjuk az adaptert közvetlenül az akkumulátor csomaghoz.
-                              Az akkumulátor csomag saját LCD kijelzővel rendelkezik, ami mutatja az akkumulátor töltöttségét.
-                              Kijelző:
-                              A kijelző egy 12" sárga-zöld szűrős monokróm LCD kijelző állítható dőlésszöggel és kontraszttal.
-                              IBM CGA és MDA kompatibilis, emelett 32 KByte dedikált RAM-mal rendelkezik.
-                              A láthatóság elég rossz a háttérvilágítás hiánya miatt.
-                              Eltávolíthatja az LCD-kijelzőt, hogy külső monitort használhasson, és a számítógépet "asztali" verzióvá alakíthassa, ami az IBM PC Convertible 5120-hoz hasonló.
+                                Nevének jelentése -> hajékony lemez.
+                                A floppy lemez egy adat tároló eszköz volt. 
+                                Az IBM fejlesztette ki és az 1970-90-es évekbe volt elterjedt. 
+                                A 2000-res évek végére teljesen ki szorították. 
+                                Ezért nagyrészt az optikai és a flash meghajtók voltak a felelősek.
                             </span>
                         </div>
-                        <h2>Kijelző</h2>
+                        <h2>Működése</h2>
                         <button id="button2" class="tldrbutton" onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
                         <hr>
                         <div>
-                            <span id="tldr2" class="tldr"  style="display: block;">A 12" sárga-zöld monokróm LCD kijelző állítható dőlésszöggel és kontraszttal, IBM CGA és MDA kompatibilis, de a láthatóság rossz a háttérvilágítás hiánya miatt. Lehet külső monitorral használni, és asztali verzióvá alakítani.</span>
+                            <span id="tldr2" class="tldr"  style="display: block;">Az adatokat egy lágy műanyag lemezen tárolják, amelyet hajlékony mágneses felület borít. Az olvasáshoz a lemezt olvasóba helyezik, amely centrifugális erőt generál, és lehetővé teszi az adatok olvasását. A lemezt kemény műanyag tok védi, amelyre a gyártó megfelelő helyen lyukat vág a forgatáshoz.</span>
                             <span id="fullText2" class="full-text" style="display: none;"> 
-                              A kijelző egy 12" sárga-zöld szűrős monokróm LCD kijelző állítható dőlésszöggel és kontraszttal.
-                              IBM CGA és MDA kompatibilis, emelett 32 KByte dedikált RAM-mal rendelkezik.
-                              A láthatóság elég rossz a háttérvilágítás hiánya miatt.
-                              Eltávolíthatja az LCD-kijelzőt, hogy külső monitort használhasson, és a számítógépet "asztali" verzióvá alakíthassa, ami az IBM PC Convertible 5120-hoz hasonló.
+                                Az adatokat egy hajékony mágneses felülettel bevont lágy műanyag lemezen tárolják.
+                                Amikor a lemezt egy olvasóba tesszük az elkezdi forgatni ez a forgás centrifugális erőt generál és így a lemez viszonylag merev és sima lesz.
+                                E miatt le lehet róla olvasni az adatokat.
+                                A kemény műanyag tokot nem szabad róla eltávolítani hiszen az védi meg a sérülékeny lemezt.
+                                Forgatáshoz a tokra a gyártó megfelelő helyen lyukat vág.
                             </span> 
                         </div>
-                        <h2>Billentyűzet</h2>
+                        <h2>Főbb verziói</h2>
                         <button id = "button3" class="tldrbutton" onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
                         <hr>
                         <div>
-                            <span id="tldr3" class="tldr"style="display: block;" >A 92 billentyűs billentyűzetnek külön numerikus billentyűzete van. Kompatibilis az IBM Enhanced PC billentyűzettel, és rendelkezik programozható funkciógombokkal és LED-ekkel a billentyűzet módok jelzéséhez.</span>
+                            <span id="tldr3" class="tldr"style="display: block;" >Az 1980-as években elterjedt floppy lemezek két fő mérete volt: 8 hüvelykes és 5 és 1/4 hüvelykes. Az 5 és 1/4 hüvelykes változat tette az átlag felhasználók számára is elérhetővé a floppy-t, mivel az olvasók megfizethetővé váltak. A tárolási kapacitás változó volt, attól függően, milyen gépet használtak, de általában 160-500 KiB volt az 8 hüvelykes és 170 KiB-tól 1,76 MiB-ig terjedt az 5 és 1/4 hüvelykes változatnál.</span>
                             <span id="fullText3" class="full-text" style="display: none;"> 
-                              92 billentyűs billentyűzet külön numerikus billentyűzettel.
-                              Kompatibilis az IBM Enhanced PC billentyűzettel, kivéve a speciális kurzor/numerikus billentyűzet mód megváltoztatására szolgáló billentyű.
-                              12 programozható funkciógombbal és 4 jelző LED-del rendelkezik a Caps Lock, Num Lock, Scroll Lock és Kurzor/Numerikus billentyűzet módhoz.
+                                Eleinte a 8 hüvelykes floppyk voltak elterjedve. 
+                                Ezek kapacitása modelltől függően 160-500 <a href="https://simple.wikipedia.org/wiki/Kibibyte"> KiB</a> volt.
+                                A második és az elterjedtebb verzió volt az 5 és 1/4 hüvelykes az az 133*133mm-es. 
+                                Ez a formátum tette az átlag felhasználónak is elérhetővé a floppy-t mivel az ehhez való olvasók megfizethetővé váltak.
+                                A tárolási kapacitás változott a használt géptől függően pl.:
+                                "Az 5 1/4" méretű lemezek járatos tárolási kapacitása a 8 bites Commodore gépeknél 170 KiB, PC-knél 360 KiB és 1,2 MiB, Commodore Amigánál 440, 880 és 1760 KiB."
+                                <sup><a href="https://hu.wikipedia.org/wiki/Hajl%C3%A9konylemez">[1]</a></sup>
                             </span>
                         </div>
+                        <h2>Napjainkban</h2>
+                        <button id="button4" class="tldrbutton" onclick="toggleFullText('tldr4', 'fullText4','button4')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr4" class="tldr"  style="display: block;">Magyarországon sok hivatal még mindig régi rendszereket használ, mert bár lassabbak, de még mindig működőképesek és megbízhatóak. Az USA-ban például a légierő a nukleáris silókban floppy lemezeket használ, mert biztonságosak és megbízhatóak, és nehéz lenne új rendszert tervezni, amely ugyanilyen szintű biztonságot nyújt. Ezek a régi rendszerek nem kapcsolódnak az internethez, így kevésbé veszélyeztetik a kiberbiztonságot.</span>
+                            <span id="fullText4" class="full-text" style="display: none;"> 
+                                Sok helyen még magyarországon a hivatalokban használják.
+                                A 30 éve kiépített rendszerek még teljesen funkcionálisak, nem a legjobbak/gyorsabbak de még használhatóak és amiatt nem lett lecserélve.
+                                Például az USA-ban a légierő a nukleáris silókban még floppykat használ.
+                                Kérdezheti az ember hogy miért?
+                                A válasz az lenne, hogy egyszer nincs rá szükség mert mint már említve volt fentebb elvégzik a feladatot.
+                                Másodszor a mai technológiával nehéz lenne le modellezni a biztonságot amit ez a rendszer nyújt.
+                                Harmadszor ezek a rendszerek már bizonyítottak a megbízhatóságukról ami talán a legfontosabb szempont az atom fegyverek kezelésével kapcsolatban.
+                                És nem utolsó sorban mivel ezek a rendszerek amik floppy-t használnak nem kapcsolódnak az internethez így a kiber támadások veszélye is alacsony.
+                            </span> 
+                        </div>
                     </div>
+
                     
                     <!-- d-none d-sm-block -->
                     <div class=" col-12 col-sm-4 "> 
@@ -74,13 +90,10 @@
                                           <div id="carouselExample" class="carousel slide">
                                               <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                  <img src="../kepek/szamitogep/HP Portable/front.JPG" class="d-block w-100" alt="A laptop kinyitva, előlnézetből" title="A laptop kinyitva, előlnézetből">
+                                                  <img src="../kepek/egyeb/Floppy/front_zoomed.JPG" class="d-block w-100" alt="A laptop kinyitva, előlnézetből" title="A laptop kinyitva, előlnézetből">
                                                 </div>
                                                 <div class="carousel-item">
-                                                  <img src="../kepek/szamitogep/HP Portable/left_side.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
-                                                </div>
-                                                <div class="carousel-item">
-                                                  <img src="../kepek/szamitogep/HP Portable/right_side.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
+                                                  <img src="../kepek/egyeb/Floppy/front_wide.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
                                                 </div>
                                               </div>
                                               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -95,7 +108,7 @@
                                         </td>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <!-- <tbody>
                                     <tr>
                                         <td class="tablasorcim">Gyártó</td>
                                         <td>Hewlett-Packard</td>
@@ -131,7 +144,7 @@
                                     <td>420x353x90 mm, 8 kg</td>
 
                                 </tr>
-                                </tbody>
+                                </tbody> -->
                             </table>
                         </div>
                     </div>
