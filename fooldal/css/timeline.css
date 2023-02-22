@@ -333,12 +333,12 @@ tr:hover {
   text-indent: 25%;
 }
 
-.tartalom>.col-4>ul,.tartalom>.col-4>h1{
+.tartalom>.col-3>ul,.tartalom>.col-3>h1{
   background-color: var(--babakék);
   border-radius: 10px;
 }
 
-.tartalom>.col-4>ul>li{
+.tartalom>.col-3>ul>li{
   padding: 10px;
 }
 
