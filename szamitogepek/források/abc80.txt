@@ -1,0 +1,43 @@
+Az ABC 80 (Advanced BASIC Computer 80) számítógép
+
+Eredet:
+Az ABC 80 (Advanced BASIC Computer 80) számítógép a svéd Dataindustrier AB (DIAB) vállalat által kifejlesztett számítógép volt, amit a Luxor AB gyártott Svédországban, Motalában a 70-es évek végén, illetve a 80-as évek elején.
+Magyarországon az 1980-as évek első felének elterjedt és népszerű iskolaszámítógépe volt.
+
+Jellemzői:
+Az ABC 80 a Zilog Z80-on alapult, 3,58 MHz-en működött, 16 kB RAM és 16 kB ROM memóriája volt.
+A ROM tartalmazott egy bytecode-alapú BASIC interpretert is.
+A számítógép monitoraként egy, a számítógéphez átalakított fekete-fehér tv-t kínált a gyártó, ami magától értetődő választás volt, hiszen a Luxor AB televíziókat is gyártott.
+A gép 8 bites kimeneti portjára egy Texas Instruments SN76477 hangchip volt csatlakoztatva, azonban a chip lehetőségeit nem lehetett kihasználni, mert annak vezérlésére nem volt lehetőség az ABC 80-ban, így a gép hangja 256 előre programozott hangeffektusra volt korlátozva.
+Az ABC 80-at később licenc alapján BRG ABC 80 néven gyártották Magyarországon is a Budapesti Rádiótechnikai Gyárban.
+Ennél a változatnál a billentyűzet műanyag borítását fémből készült házra cserélték le.
+Az eredeti egymagnetofonos változatot a BRG később kétmagnetofonosra cserélte.
+
+Hazánkban+további technikai adatok:
+Lemezegységet Magyarországon csak nagyon kevés helyen használtak.
+Az ABC 80 megbízható, ritkán elromló számítógép volt, különösen az eredeti egykazettás kivitelben.
+A maga korában szokatlan módon az ABC 80 képes volt a legfontosabb ékezetes betűk (á, é, ö, ü) megjelenítésére is.
+Az ABC 80 karakteres képernyője 24 sorból és 40 oszlopból állt.
+Grafikus módban egy-egy karakterhelyet hat képpontra (két oszlopra és három sorra) lehetett felbontani.
+A grafika soronként volt bekapcsolható egy speciális (151-es kódú) karakternek a 0. oszlopban való elhelyezésével.
+Ezáltal a 0. képernyőoszlopot nem lehetett felhasználni a grafikához, tehát a felbontás 72 sor és 78 oszlop volt.
+
+
+
+Technikai jellemzők: (ez mehet táblázatba)
+
+Gyártó: Luxor
+Típusa: személyi számítógép
+Gyártó ország: Svédország
+Gyártás éve: 1978
+Processzor: Z80, 3.58 MHz
+RAM: 16 KB (32 KB-ig bővíthető)
+ROM: 16 KB
+Szöveges felbontás: 40 x 24 karakter
+Grafikus felbontás: 78 x 72 képpont
+Megjeleníthető színek száma: 1 (monokróm)
+Hang: 1 csatorna, beépített hangszóró
+Beépített nyelv: Luxor Basic
+Billentyűzet: 55 billentyű, mechanikus
+Adattároló: külső magnetofon
+Bővítés: opcionális floppy meghajtóval
