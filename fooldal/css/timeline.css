@@ -327,19 +327,19 @@ tr:hover {
 }
 
 .tartalom{
-  text-align: left;
   list-style-position: inside;
   padding-top: 20px;
-  text-indent: 25%;
 }
 
 .tartalom>.col-3>ul,.tartalom>.col-3>h1{
   background-color: var(--babakék);
   border-radius: 10px;
+  text-align: center;
 }
 
 .tartalom>.col-3>ul>li{
   padding: 10px;
+  text-align: left !important;
 }
 
 .row{
@@ -385,3 +385,4 @@ h2{
   color: var(feher);
   box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
+
