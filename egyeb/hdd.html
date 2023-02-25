@@ -21,60 +21,86 @@
                 <div class="row">
                     <div class="col-12 col-sm-8 szoveg">
                         <h2>Bevezetés</h2>
-                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
+                        <!-- <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button> -->
                         <hr>
                         <div>
-                            <span id="tldr1" class="tldr" style="display: block;">A "floppy lemez" a 70-90-es években elterjedt adattároló eszköz volt, melyet az IBM fejlesztett ki. A 2000-es évek végére teljesen kiszorították az optikai és flash meghajtók.</span>
+                            <span id="tldr1" class="tldr" style="display: block;">HDD ami angolul -> Hard Disk Drive. <br>
+                                Ez magyarra fordítva merevlemezt jelent. <br>
+                                Ez is egy adat tároló eszköz amit még a mai napig használunk. <br>
+                            </span>
                             <span id="fullText1" class="full-text" style="display: none;">
-                                Nevének jelentése -> hajékony lemez.
-                                A floppy lemez egy adat tároló eszköz volt. 
-                                Az IBM fejlesztette ki és az 1970-90-es évekbe volt elterjedt. 
-                                A 2000-res évek végére teljesen ki szorították. 
-                                Ezért nagyrészt az optikai és a flash meghajtók voltak a felelősek.
+                                HDD ami angolul -> Hard Disk Drive.
+                                Ez magyarra fordítva merevlemezt jelent.
+                                Ez is egy adat tároló eszköz amit még a mai napig használunk.
                             </span>
                         </div>
                         <h2>Működése</h2>
                         <button id="button2" class="tldrbutton" onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
                         <hr>
                         <div>
-                            <span id="tldr2" class="tldr"  style="display: block;">Az adatokat egy lágy műanyag lemezen tárolják, amelyet hajlékony mágneses felület borít. Az olvasáshoz a lemezt olvasóba helyezik, amely centrifugális erőt generál, és lehetővé teszi az adatok olvasását. A lemezt kemény műanyag tok védi, amelyre a gyártó megfelelő helyen lyukat vág a forgatáshoz.</span>
+                            <span id="tldr2" class="tldr"  style="display: block;">Az adatokat mágnesezhető fémlemezen tárolják, amelyet egy író/olvasó fej ír vagy olvas. A lemezek folyamatosan forognak, és a forgási sebességet RPM-ben mérik. A fej 1 nm-es légpárnán "repül" a lemez felett, és a legkisebb porszem is károsíthatja az eszközt. Ezért a HDD-ket tisztaterekben szerelik össze, hogy semmi szennyeződés ne kerüljön be a belsejébe.</span>
                             <span id="fullText2" class="full-text" style="display: none;"> 
-                                Az adatokat egy hajékony mágneses felülettel bevont lágy műanyag lemezen tárolják.
-                                Amikor a lemezt egy olvasóba tesszük az elkezdi forgatni ez a forgás centrifugális erőt generál és így a lemez viszonylag merev és sima lesz.
-                                E miatt le lehet róla olvasni az adatokat.
-                                A kemény műanyag tokot nem szabad róla eltávolítani hiszen az védi meg a sérülékeny lemezt.
-                                Forgatáshoz a tokra a gyártó megfelelő helyen lyukat vág.
+                                Az adatokat egy mágnesezhető fém lemezen tárolja.
+                                Ezt a lemezt adat lekéréskor egy író/olvasó fej írja vagy olvassa.
+                                Ezek a lemezek(több is lehet) folyamatosan forognak.
+                                A forgási sebességet RPM-ben mérik az-az Revolutions Per Minute -> percenkénti fordulatszám.
+                                A fej körübelül 1nm (nano meter)-es légpárnán "repül" a lemez felett.
+                                Pontosan emiatt a kis távolság miatt a legapróbb porszem is tönkre teheti vagy károsíthatja az eszküzt.
+                                E miatt a hdd-ket úgy nevezett tisztaterekben szerelik össze ahol semmi szennyeződés nincs így nem kerülhet be semmi a belsejébe az adattárolónak.
                             </span> 
                         </div>
-                        <h2>Főbb verziói</h2>
+                        <h2>Részei</h2>
                         <button id = "button3" class="tldrbutton" onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
                         <hr>
                         <div>
-                            <span id="tldr3" class="tldr"style="display: block;" >Az 1980-as években elterjedt floppy lemezek két fő mérete volt: 8 hüvelykes és 5 és 1/4 hüvelykes. Az 5 és 1/4 hüvelykes változat tette az átlag felhasználók számára is elérhetővé a floppy-t, mivel az olvasók megfizethetővé váltak. A tárolási kapacitás változó volt, attól függően, milyen gépet használtak, de általában 160-500 KiB volt az 8 hüvelykes és 170 KiB-tól 1,76 MiB-ig terjedt az 5 és 1/4 hüvelykes változatnál.</span>
+                            <span id="tldr3" class="tldr"style="display: block;" >A lemezeknek mindkét oldalán van adat, és van egy alsó és felső író és olvasó fejük. A lemezt trackerek alkotják, amelyek különböző sugarú körök, és ezeket clusterbe helyezik.</span>
                             <span id="fullText3" class="full-text" style="display: none;"> 
-                                Eleinte a 8 hüvelykes floppyk voltak elterjedve. 
-                                Ezek kapacitása modelltől függően 160-500 <a href="https://simple.wikipedia.org/wiki/Kibibyte"> KiB</a> volt.
-                                A második és az elterjedtebb verzió volt az 5 és 1/4 hüvelykes az az 133*133mm-es. 
-                                Ez a formátum tette az átlag felhasználónak is elérhetővé a floppy-t mivel az ehhez való olvasók megfizethetővé váltak.
-                                A tárolási kapacitás változott a használt géptől függően pl.:
-                                "Az 5 1/4" méretű lemezek járatos tárolási kapacitása a 8 bites Commodore gépeknél 170 KiB, PC-knél 360 KiB és 1,2 MiB, Commodore Amigánál 440, 880 és 1760 KiB."
-                                <sup><a href="https://hu.wikipedia.org/wiki/Hajl%C3%A9konylemez">[1]</a></sup>
+                                Több lemez is lehet.
+                                A lemezek mindkét oldalán van adat tárolva ezért van egy alsó és felső író és olvasó fej.
+                                A lemezt úgy nevezett Trackerek(különböző sugarú körök) alkotják/fedik.
+                                Ezeket a Trackereket a lemez formázásával eggyüt csoportosítják, clusterekbe helyezik.
                             </span>
                         </div>
-                        <h2>Napjainkban</h2>
+                        <h2>Jellemzői:
+                        </h2>
                         <button id="button4" class="tldrbutton" onclick="toggleFullText('tldr4', 'fullText4','button4')">Mutass többet</button>
                         <hr>
                         <div>
-                            <span id="tldr4" class="tldr"  style="display: block;">Magyarországon sok hivatal még mindig régi rendszereket használ, mert bár lassabbak, de még mindig működőképesek és megbízhatóak. Az USA-ban például a légierő a nukleáris silókban floppy lemezeket használ, mert biztonságosak és megbízhatóak, és nehéz lenne új rendszert tervezni, amely ugyanilyen szintű biztonságot nyújt. Ezek a régi rendszerek nem kapcsolódnak az internethez, így kevésbé veszélyeztetik a kiberbiztonságot.</span>
+                            <span id="tldr4" class="tldr"  style="display: block;">Jelenleg (2023.02.21) a legnagyobb adattároló kapacitás 26TB, de az SSD-k már elérhetik a 100TB-os kapacitást. Az írási és olvasási sebesség függ a fordulatszámtól és az adatsűrűségtől. Csatoló felületek közé tartoznak az ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI) és FC (Fiber Channel).</span>
                             <span id="fullText4" class="full-text" style="display: none;"> 
-                                Sok helyen még magyarországon a hivatalokban használják.
-                                A 30 éve kiépített rendszerek még teljesen funkcionálisak, nem a legjobbak/gyorsabbak de még használhatóak és amiatt nem lett lecserélve.
-                                Például az USA-ban a légierő a nukleáris silókban még floppykat használ.
-                                Kérdezheti az ember hogy miért?
-                                A válasz az lenne, hogy egyszer nincs rá szükség mert mint már említve volt fentebb elvégzik a feladatot.
-                                Másodszor a mai technológiával nehéz lenne le modellezni a biztonságot amit ez a rendszer nyújt.
-                                Harmadszor ezek a rendszerek már bizonyítottak a megbízhatóságukról ami talán a legfontosabb szempont az atom fegyverek kezelésével kapcsolatban.
-                                És nem utolsó sorban mivel ezek a rendszerek amik floppy-t használnak nem kapcsolódnak az internethez így a kiber támadások veszélye is alacsony.
+                                Nagyon nagy mennyiségű adatot képesek tárolni jelenleg(2023.02.21) a legnagyobb kapacitású az 26TB.
+                                Ez persze a jövőben változhat. Az SSD-k már ezt meg haladták akár 100TB-os kapacitássukkal.
+                                Az írási és olvasási sebesség a fordulat számámtól és az adatsűrűségtől egyaránt függ.
+                                Csatoló felületek: ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI), FC (Fiber Channel).
+                            </span> 
+                        </div>
+                        <!-- todo kapcsolodo fogalmak -->
+
+                        <h2>Kapcsolódó fogalmak</h2>
+                        <hr>
+                        <div>
+                            <h3>Particionálás</h3>
+                            <!-- todo gomb -->
+                            <span id="tldr4" class="tldr"  style="display: block;">Jelenleg (2023.02.21) a legnagyobb adattároló kapacitás 26TB, de az SSD-k már elérhetik a 100TB-os kapacitást. Az írási és olvasási sebesség függ a fordulatszámtól és az adatsűrűségtől. Csatoló felületek közé tartoznak az ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI) és FC (Fiber Channel).</span>
+                            <span id="fullText4" class="full-text" style="display: none;"> 
+                                Nagyon nagy mennyiségű adatot képesek tárolni jelenleg(2023.02.21) a legnagyobb kapacitású az 26TB.
+                                Ez persze a jövőben változhat. Az SSD-k már ezt meg haladták akár 100TB-os kapacitássukkal.
+                                Az írási és olvasási sebesség a fordulat számámtól és az adatsűrűségtől egyaránt függ.
+                                Csatoló felületek: ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI), FC (Fiber Channel).
+                            </span> 
+                        </div>
+
+
+                        <h2>Napjainkban:
+                        </h2>
+                        <button id="button5" class="tldrbutton" onclick="toggleFullText('tldr5', 'fullText5','button5')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr5" class="tldr"  style="display: block;">Magyarországon sok hivatal még mindig régi rendszereket használ, mert bár lassabbak, de még mindig működőképesek és megbízhatóak. Az USA-ban például a légierő a nukleáris silókban floppy lemezeket használ, mert biztonságosak és megbízhatóak, és nehéz lenne új rendszert tervezni, amely ugyanilyen szintű biztonságot nyújt. Ezek a régi rendszerek nem kapcsolódnak az internethez, így kevésbé veszélyeztetik a kiberbiztonságot.</span>
+                            <span id="fullText5" class="full-text" style="display: none;"> 
+                                A hhd-k szinte minden számitógépben megtalálhatóak.
+                                Közkedveltek mivel ez a legolcsóbb mód nagy mennyiségű adat tárolására(kb fele annyiba kerül mint az ssd ár/tárhely)
+                                A mobil eszközökből viszont már teljesen kiszorultak mivel nagy méretük és energia fogyasztásuk előnytelenné tette őket az ssd-kel szemben.
                             </span> 
                         </div>
                     </div>
@@ -90,10 +116,10 @@
                                           <div id="carouselExample" class="carousel slide">
                                               <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                  <img src="../kepek/egyeb/Floppy/front_zoomed.JPG" class="d-block w-100" alt="A laptop kinyitva, előlnézetből" title="A laptop kinyitva, előlnézetből">
+                                                  <img src="../kepek/egyeb/HDD/front.JPG" class="d-block w-100" alt="HDD-k különböző időszakokból" title="HDD-k különböző időszakokból">
                                                 </div>
                                                 <div class="carousel-item">
-                                                  <img src="../kepek/egyeb/Floppy/front_wide.JPG" class="d-block w-100" alt="A laptop kinyitva, oldalnézetből" title="A laptop kinyitva, oldalnézetből">
+                                                  <img src="../kepek/egyeb/HDD/back.JPG" class="d-block w-100" alt="A HDD-k megforgatva" title="A HDD-k megforgatva">
                                                 </div>
                                               </div>
                                               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -163,5 +189,5 @@
         </p>    
     </div>		
 </body>
-<script src="/tldr.js"></script>
+<script src="../tldr.js"></script>
 </html>

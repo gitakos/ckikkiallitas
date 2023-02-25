@@ -351,7 +351,7 @@ footer>h1, .info-item{
 }
 
 h2{
-  margin-top: .5vw;
+  margin-top: 20px;
   margin-right: 10px;
   display: inline-block;
 }
@@ -384,4 +384,8 @@ h2{
   border-color: var(--vilagoskek);
   color: var(feher);
   box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h3{
+  text-indent: 1.5vw;
 }

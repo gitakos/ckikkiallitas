@@ -29,7 +29,7 @@ Csatoló felületek: ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Se
 
 Kapcsolódó fogalmak:
 Particionálás(lenyitni):
-merevlemez több logikai meghajtóra való felosztást patricionálásnak nevezzük.
+Merevlemez több logikai meghajtóra való felosztást patricionálásnak nevezzük.
 
 Formattálás(lenyitni):
 Adat tárolására alkalmas sávok létrehozása.
@@ -43,7 +43,7 @@ Ezt különböző szoftverek segítségével, töredezettségmentesítő, defrag
 (igen ez wiki ctrl c/ctrl v)
 
 Napjainkban:
-A hhd-k szinte minden pcben megtalálhatóak.
+A hhd-k szinte minden számitógépben megtalálhatóak.
 Közkedveltek mivel ez a legolcsóbb mód nagy mennyiségű adat tárolására(kb fele annyiba kerül mint az ssd ár/tárhely)
 A mobil eszközökből viszont már teljesen kiszorultak mivel nagy méretük és energia fogyasztásuk előnytelenné tette őket az ssd-kel szemben.
 
