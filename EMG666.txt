@@ -1,0 +1,19 @@
+Eredet:
+Magyarország a szocialista rendszer időszakában hasonlóan az összes többi szocialista országhoz el volt maradva a nyugati számítástechnika fejlesztéseitől.
+Azonban ez nem jelentette azt, hogy Magyarországon ne történtek volna fejlesztések ezen a területen. 
+Sőt, a szocialista blokk első programozható számológépét, az EMG 666-ot Magyarországon sikerült megalkotni.
+
+Fejlesztése:
+Az EMG 666-ot 1974-ben fejlesztették ki egy külföldi mintaadó alapján.
+Azonban az új gép nemcsak a mintaadónál több funkcióval bírt, hanem olyan újításokat is tartalmazott, amelyekkel elődjénél sokkal könnyebb és hatékonyabb volt a számítások elvégzése.
+Az EMG 666 memóriája legfeljebb 8 KB volt, alfanumerikus képernyőjén pedig 4 sorban, soronként 16 karakter jelenhetett meg.
+
+Billentyűzet:
+Az EMG 666 billentyűzete sem hasonlított az akkori írógépes kiosztásra.
+A gombok ABC sorrendben követték egymást, ami ugyan furcsának tűnhetett, de a programozók számára nagyon könnyűvé tette a programozást.
+Az EMG 666-hoz külön nyomtató is tartozott, amely az EMG 893 jelzést viselte.
+
+Hatása:
+Összességében elmondható, hogy az EMG 666 számológép jelentős lépést jelentett a magyar számítástechnika történetében.
+Bár a fejlesztéseit elsősorban a szocialista blokkhoz tartozó országokban használták, mégis bizonyítja, 
+hogy Magyarország is képes volt fejlesztéseket véghez vinni a számítástechnika területén, amelyek a korábbiakhoz képest jelentős előrelépést jelentettek.
