@@ -44,4 +44,6 @@ function toggleFullText(tldrId, fullTextId, buttonId) {
       }, 500);
     }
   }
+
+
   

@@ -74,21 +74,7 @@
                                 Csatoló felületek: ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI), FC (Fiber Channel).
                             </span> 
                         </div>
-                        <!-- todo kapcsolodo fogalmak -->
 
-                        <h2>Kapcsolódó fogalmak</h2>
-                        <hr>
-                        <div>
-                            <h3>Particionálás</h3>
-                            <!-- todo gomb -->
-                            <span id="tldr4" class="tldr"  style="display: block;">Jelenleg (2023.02.21) a legnagyobb adattároló kapacitás 26TB, de az SSD-k már elérhetik a 100TB-os kapacitást. Az írási és olvasási sebesség függ a fordulatszámtól és az adatsűrűségtől. Csatoló felületek közé tartoznak az ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI) és FC (Fiber Channel).</span>
-                            <span id="fullText4" class="full-text" style="display: none;"> 
-                                Nagyon nagy mennyiségű adatot képesek tárolni jelenleg(2023.02.21) a legnagyobb kapacitású az 26TB.
-                                Ez persze a jövőben változhat. Az SSD-k már ezt meg haladták akár 100TB-os kapacitássukkal.
-                                Az írási és olvasási sebesség a fordulat számámtól és az adatsűrűségtől egyaránt függ.
-                                Csatoló felületek: ATA (PATA), SATA (SATA I, SATA II, SATA III), SCSI, SAS (Serial Attached SCSI), FC (Fiber Channel).
-                            </span> 
-                        </div>
 
 
                         <h2>Napjainkban:
@@ -96,14 +82,50 @@
                         <button id="button5" class="tldrbutton" onclick="toggleFullText('tldr5', 'fullText5','button5')">Mutass többet</button>
                         <hr>
                         <div>
-                            <span id="tldr5" class="tldr"  style="display: block;">Magyarországon sok hivatal még mindig régi rendszereket használ, mert bár lassabbak, de még mindig működőképesek és megbízhatóak. Az USA-ban például a légierő a nukleáris silókban floppy lemezeket használ, mert biztonságosak és megbízhatóak, és nehéz lenne új rendszert tervezni, amely ugyanilyen szintű biztonságot nyújt. Ezek a régi rendszerek nem kapcsolódnak az internethez, így kevésbé veszélyeztetik a kiberbiztonságot.</span>
+                            <span id="tldr5" class="tldr"  style="display: block;">HDD-k szinte minden számítógépben megtalálhatóak, mivel olcsóbbak, mint az SSD-k. Azonban mobil eszközökből már kiszorultak, mert nagyok és sok energiát fogyasztanak, így az SSD-k előnyösebbek ezen a területen.</span>
                             <span id="fullText5" class="full-text" style="display: none;"> 
                                 A hhd-k szinte minden számitógépben megtalálhatóak.
                                 Közkedveltek mivel ez a legolcsóbb mód nagy mennyiségű adat tárolására(kb fele annyiba kerül mint az ssd ár/tárhely)
                                 A mobil eszközökből viszont már teljesen kiszorultak mivel nagy méretük és energia fogyasztásuk előnytelenné tette őket az ssd-kel szemben.
                             </span> 
                         </div>
+                        <h2>Kapcsolódó fogalmak</h2>
+                        <hr>
+                        <div class="fogalom">
+                            <h3>Particionálás</h3>
+                            <button id="button10" class="fogalombutton" onclick="toggleFullText('tldr10', 'fullText10','button10')">Mutass többet</button>
+                            <span id="tldr10" class="tldr"  style="display: block;"></span>
+                            <span id="fullText10" class="full-text" style="display: none;"> 
+                                Merevlemez több logikai meghajtóra való felosztást patricionálásnak nevezzük.
+                            </span> 
+
+                            <!-- ! next -->
+                            <hr>
+                            <h3>Formattálás</h3>
+                            <button id="button11" class="fogalombutton" onclick="toggleFullText('tldr11', 'fullText11','button11')">Mutass többet</button>
+                            <span id="tldr11" class="tldr"  style="display: block;"></span>
+                            <span id="fullText11" class="full-text" style="display: none;"> 
+                                Adat tárolására alkalmas sávok létrehozása.
+                            </span> 
+
+                            <!-- ! next -->
+                            <hr>
+                            <h3>Töredezettség</h3>
+                            <button id="button12" class="fogalombutton" onclick="toggleFullText('tldr12', 'fullText12','button12')">Mutass többet</button>
+                            <span id="tldr12" class="tldr"  style="display: block;"></span>
+                            <span id="fullText12" class="full-text" style="display: none;"> 
+                                A HDD-n lévő fájlok egy idő után logikailag töredezetté válnak.
+                                Oka az, hogy a merevlemez nem tud egy szektornál kisebb egységet címezni, így amikor ír egy fájlt, és az nem tölti be teljesen a szektort, kihasználatlan hely keletkezik.
+                                A merevlemez lassulását az okozza, hogy amikor ír egy adott információt, de a következő szektor foglalt, akkor ettől a szektortól egy távolabbi üres szektorba kell raknia a fájl további részét – az író/olvasó fejnek mozognia kell, hogy elérje – és ez lassabb elérési időt okoz.
+                                Ezt az állapotot töredezettségnek vagy fragmentáltságnak nevezzük.
+                                Ezt különböző szoftverek segítségével, töredezettségmentesítő, defragmentáló programokkal könnyen lehet orvosolni.
+                            </span> 
+                            <hr>
+                        </div>
+
                     </div>
+
+                    
 
                     
                     <!-- d-none d-sm-block -->
@@ -177,10 +199,10 @@
                 </div>
                 <div class="row"> 
                     <div class="col-12 col-sm-8"> 
-                            <h2>Forrás:</h2>
-                            <hr>
-                            <a href="http://www.curtamania.com/curta/database/brand/hewlett_packard/HP%20Portable%20Vectra%20CS/index.html" target="_blank">Curtamania.com</a>
-                      </div>
+                        <h2>Forrás:</h2>
+                        <hr>
+                        <a href="https://hu.wikipedia.org/wiki/Merevlemez" target="_blank">Wikipedia</a>
+                    </div>
                 </div>
             </div>
         </main>
