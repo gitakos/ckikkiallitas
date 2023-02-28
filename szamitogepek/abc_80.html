@@ -4,71 +4,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fooldal/css/timeline.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <!--link rel="stylesheet" href="../../style.css"-->
+    <title>CKIK - ABC 80</title>
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
-
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
-
-
-    </ul>
-
-  </div>
-
-
-    </div>
-  </div>   
+    <div class="information">
+        <header>
+            <h1>ABC 80 (Advanced BASIC Computer 80) számítógép</h1>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 szoveg">
+                        <h2>Eredet:</h2>
+                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="display: block;"></span>
+                            <span id="fullText1" class="full-text" style="display: none;">Az ABC 80 (Advanced BASIC Computer 80) számítógép a svéd Dataindustrier AB (DIAB) vállalat által kifejlesztett számítógép volt, amit a Luxor AB gyártott Svédországban, Motalában a 70-es évek végén, illetve a 80-as évek elején.
+                                Magyarországon az 1980-as évek első felében elterjedt és népszerű iskolai számítógépe volt.</span>
+                        </div>
+                        <h2>Jellemzői:</h2>
+                        <button id="button2" class="tldrbutton"  onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr2" class="tldr" style="display: block;"></span>
+                            <span id="fullText2" class="full-text" style="display: none;">Az ABC 80 a Zilog Z80-on alapult, 3,58 MHz-en működött, 16 kB RAM és 16 kB ROM memóriája volt.
+                                A ROM tartalmazott egy bytecode-alapú BASIC interpretálót is.
+                                A számítógép monitoraként egy, a számítógéphez átalakított fekete-fehér tv-t kínált a gyártó, ami magától értetődő választás volt, hiszen a Luxor AB televíziókat is gyártott.
+                                A gép 8 bites kimeneti portjára egy Texas Instruments SN76477 hangchip volt csatlakoztatva, azonban a chip lehetőségeit nem lehetett kihasználni, mert annak vezérlésére nem volt lehetőség az ABC 80-ban, így a gép hangja 256 előre programozott hangeffektusra volt korlátozva.
+                                Az ABC 80-at később licenc alapján BRG ABC 80 néven gyártották Magyarországon is a Budapesti Rádiótechnikai Gyárban.
+                                Ennél a változatnál a billentyűzet műanyag borítását fémből készült házra cserélték le.
+                                Az eredeti egy magnetofonos változatot a BRG később két magnetofonosra cserélte.</span>
+                        </div>
+                        <h2>Hazánkban és további technikai adatok:</h2>
+                        <button id="button3" class="tldrbutton"  onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
+                        <hr>
+                        <div>
+                            <span id="tldr3" class="tldr" style="display: block;"></span>
+                            <span id="fullText3" class="full-text" style="display: none;">Lemezegységet Magyarországon csak nagyon kevés helyen használtak.
+                                Az ABC 80 megbízható, ritkán elromló számítógép volt, különösen az eredeti egykazettás kivitelben.
+                                A maga korában szokatlan módon az ABC 80 képes volt a legfontosabb ékezetes betűk (á, é, ö, ü) megjelenítésére is.
+                                Az ABC 80 karakteres képernyője 24 sorból és 40 oszlopból állt.
+                                Grafikus módban egy-egy karakterhelyet hat képpontra (két oszlopra és három sorra) lehetett felbontani.
+                                A grafika soronként volt bekapcsolható egy speciális (151-es kódú) karakternek a 0. oszlopban való elhelyezésével.
+                                Ezáltal a 0. képernyő oszlopot nem lehetett felhasználni a grafikához, tehát a felbontás 72 sor és 78 oszlop volt.</span>
+                        </div>
+                    </div>
+                    <!-- d-none d-sm-block -->
+                    <div class=" col-12 col-sm-4 "> 
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td colspan="2">
+                                          <div id="carouselExample" class="carousel slide">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                              </div>
+                                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                              </button>
+                                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                              </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablasorcim">Gyártó:</td>
+                                        <td>Luxor</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Gyártás éve:</td>
+                                        <td>1978</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Típusa:</td>
+                                        <td>személyi számítógép</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Processzor:</td>
+                                        <td>Z80, 3.58 MHz</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">RAM:</td>
+                                        <td>16 KB (32 KB-ig bővíthető)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">ROM:</td>
+                                        <td>16 KB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Szöveges felbontás:</td>
+                                        <td>40 x 24 karakter</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Grafikus felbontás:</td>
+                                        <td>78 x 72 képpont</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Megjeleníthető színek száma</td>
+                                        <td>1 (monokróm)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Hang:</td>
+                                        <td>1 csatorna, beépített hangszóró</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Beépített nyelv:</td>
+                                        <td>Luxor Basic</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Billentyűzet:</td>
+                                        <td>55 billentyű, mechanikus</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablasorcim">Adattároló:</td>
+                                        <td>külső magnetofon</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-12 col-sm-8"> 
+                        <h2>Fordította/Készítette:</h2>
+                            <hr>
+                            <p></p>    
+                            <h2>Forrás:</h2>
+                            <hr>
+                            <a class = "nemtudtamkitalalnikreativnevet" href="" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <p style="text-align: right;">
+            <button type="button" class="btn btn-secondary" onclick="location.href='../fooldal/index.html';">Vissza</button>
+        </p>    
+    </div>		
 </body>
+<script src="../tldr.js"></script>
 </html>
