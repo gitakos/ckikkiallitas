@@ -1,0 +1,22 @@
+Sinclair ZX Spectrum 
+
+Történet:
+A Sinclair ZX Spectrum személyi számítógép volt, melyet 1982-ben bocsátott ki a Sinclair Research az Egyesült Királyságban. Mikroprocesszora, a Zilog Z80-as 3,50 MHz-en futott. Az eredeti Spectrum 16 Kb vagy 48 Kb memóriával (RAM) rendelkezett (a bővítéshez rendelkezésre állt kiegészítő). A gép hardverét Richard Altwasser tervezte, a szoftvert pedig Steve Vickers, aki a Sinclair BASIC-et kifejlesztő Nine Tiles Ltd-nél dolgozott.
+
+Leírás:
+Kijelzőként a tévét lehetett használni. Gumibillentyűin a Sinclair BASIC-kulcsszavai voltak, a gépelés könnyítése érdekében gyorsbillentyűként működve: a G billentyűt lenyomva például – programozási üzemmódban – a GOTO (menj) BASIC-utasítás jelent meg a képernyőn. A programokat és adatokat hagyományos audiokazettán lehetett tárolni. (Egy mai COD4 betöltése kb. 480 napig tartana, és kb. 7670db 90 perces kazettára férne rá.)
+
+Változatai:
+ZX Spectrum 16K/48K
+ZX Spectrum+
+ZX Spectrum 128K
+ZX Spectrum +2
+ZX Spectrum +3
+ZX Spectrum +2A / +2B
+
+Adatok az eszközről:
+Megjelenés:	1982
+Processzor:	Zilog Z80-as 3,50 MHz
+Memória:	16 KB vagy 48 KB
+Op. rendszer:	Sinclair BASIC
+Kijelző:	otthoni televíziókészülék
