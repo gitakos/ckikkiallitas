@@ -1,0 +1,17 @@
+Mera 7951 OM
+ 
+Történet:
+Ezt az eszközt valószínűleg kompaktnak, egyszerűnek és olcsónak tervezték, mivel csak 74 logikát használ, és nem használ (V)LSI áramkört. A lengyel vasutaknál használták az értékesítési pontok számítógépes rendszerekkel való kommunikációjára. Tulajdonságai nem csúcsminőségűek: egy sorban 40 karakter és 12 sor jeleníthető meg, az egyetlen port egy soros port, a billentyűzet nem túl kényelmes, a ház pedig meglehetősen vékony, fehér festékkel bevont műanyagból készült. A hangszóró beépített volt, és minden gombnyomáskor hangot adott. Szerencsére volt hangerőszabályzó. Volt néhány borostyánsárga CRT-s verzió is, de az én készülékem a legnépszerűbb zölddel.
+
+Leírás:
+A 7951 OM egy nagyon egyszerű eszköz, amelynek logikája van a kurzor generálására, a karaktergenerátor betáplálására a karakterekkel a portról és a feed port a karakterekkelkeyboard. A kijelzőgenerátor 2716 EPROM-ot használ, de az MCY7304NAB ROM-mal pin-kompatibilis. Hat 1Kbit-es memóriachipet használ a képernyő tartalmának tárolására (64 karakteres táblázat, csak nagybetűk), de a felét használják, mivel 40x12<6 karakteres móddal rendelkezik. A tápegység túlmelegedésre hajlamos, acél burkolatban 2 db transzformátor található.
+
+Változatai:
+Mera 7953 Z
+
+Adatok az eszközről:
+Megjelenés:	1987
+Processzor:	Nincs CPU
+Memória:	1000 szót tudott eltárolni (6-bites ábrázolás) monitorban van a memória
+Tárhely:	1987
+Kijelző:	Internal CRT
