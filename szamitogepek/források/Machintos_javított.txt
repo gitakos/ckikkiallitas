@@ -1,0 +1,37 @@
+Megjelenés
+
+A Macintosh LC II egy Apple által gyártott személyi számítógép volt, amely 1992-ben került piacra és 1993 forgalmazták.
+Az LC II a számítástechnikai iparban a fogyasztói igények változását tükrözte, az Apple célja pedig az volt,
+hogy a számítógépekhez való hozzáférést elérhetőbbé és költséghatékonyabbá tegye az átlagos felhasználók számára.
+
+Specifikációk:
+
+Az LC II-ben az Apple egy 16 MHz-es Motorola 68030 processzort alkalmazott, amely bővíthető volt 36 MB RAM-al.
+A két bővítőhely lehetővé tette az Ethernet kártya, a videokártya vagy az Apple II emulátor hozzáadását.
+Az LC II a szokásos Macintosh funkciókat kínálta, például a 3,5 colos floppy meghajtót, a SCSI portot és a monitor kimenetet.
+
+Siker oka:
+
+Az LC II-nak a fogyasztói piac számára való megjelenése azonnal nagy érdeklődést váltott ki.
+Az LC II sikeresen elnyerte a közönség figyelmét, akik meg akarták vásárolni az Apple-t, de nem akartak sokat költeni.
+Az LC II egy év alatt az Apple legnépszerűbb számítógépe lett, amelyet az oktatási intézmények és az otthoni felhasználók széles körben használtak.
+
+Cél:
+
+Az LC II alacsony ára és megbízhatósága miatt az Apple stratégiájának kulcsfontosságú eleme volt.
+Az Apple célja az volt, hogy a Macintosh számítógépek szélesebb körű elérhetőségét biztosítsa, és az LC II sikeresen hozzájárult ehhez a célhoz.
+Az LC II egyértelműen az Apple termékportfóliójának részévé vált, és meghatározó tényezője volt az Apple történelmének.
+
+Hatása magára a cégre:
+
+Az LC II sikere az Apple történelmében szilárd alapot jelentett a további fejlesztések számára.
+Az Apple folytatta az LC sorozat bővítését, és az LC II után megjelent az LC III, majd az LC 475. 
+Az LC II árának csökkentése és a számítógépek alacsonyabb költségű változatainak kifejlesztése hosszú távú hatást gyakorolt az Apple üzleti stratégiájára, 
+és a cég megnyitotta az utat a szélesebb körű fogyasztói piachoz.
+
+Ma:
+
+Az LC II ma már antikvitásként számít, de a számítástechnika történelmében fontos szerepet játszott.
+Az LC II egy kiváló példa az Apple stratégiájára, amely a szélesebb körű fogyasztói igényekre és a megfizethetőbb számítógépek iránti igényre összpontosított.
+Az LC II több mint 30 évvel a megjelenése után is megmaradt az Apple termékek ikonikus darabjának, amely fontos szerepet játszott a cég történelmében.
+Az LC II hatása az Apple és a számítástechnika történelmére is jelentős volt, és egyértelműen bizonyítja az Apple folyamatos elkötelezettségét a fejlesztések és az innováció iránt.
