@@ -1,0 +1,22 @@
+Machintos LC II
+
+Történet:
+A Macintosh LC II egy személyi számítógép , amelyet az Apple Computer tervezett, gyártott és értékesített 1992 márciusa és 1993 márciusa között. Az LC II az eredeti Macintosh LC frissítése , amely a Motorola 68020 processzorát 68030 -ra cseréli, és az alaplapi memóriát növeli 4 MB-ra. Az LC II ára 1699 amerikai dollár volt, ami 800 dollárral kevesebb, mint az eredeti LC, amikor bemutatták.
+
+Leírás:
+Az LC II megőrzi elődje pizzadobozának formáját. A kialakítást az LC II gyártási futtatása során frissítették, amikor az automatikus befecskendezésű hajlékonylemez-meghajtót a kézi befecskendező egységgel helyettesítették. Az átdolgozott előlapon már nem szerepelt a hajlékonylemez-meghajtóhoz igazodó vízszintes bemélyedés, ami a Snow White tervezési nyelvének meghatározó jellemzője .
+
+Változatai:
+Macintosh LC II
+Performa 400
+Performa 405
+Performa 430
+Performa 410
+
+Adatok az eszközről:
+Megjelenés:	1992. március 23
+Processzor:	Motorola 68030, 16 MHz
+Memória:	4 MB, 10 MB-ra bővíthető (30 tűs SIMM)
+Op. rendszer:	MacOs
+Kijelző:	külső kijelző
+Tömege:	4,0 kg
