@@ -1,0 +1,23 @@
+Commodore 64
+
+Történet:
+1981 januárjában a MOS Technology Inc., a Commodore integrált áramköröket gyártó alvállalata elkezdte egy újgenerációs személyi számítógéphez a grafikus és hangchip tervezését. A két új chip, amelyek a MOS Technology VIC-II (Video Integrated Circuit) és a MOS Technology SID (Sound Interface Device) neveket kapták, 1981 végére lett kész. Akkori ára 595 USD volt.
+
+Leírás:
+A Commodore 64 , más néven C64 , egy 8 bites otthoni számítógép , amelyet 1982 januárjában mutatott be a Commodore International (először a Consumer Electronics Show -n mutatták be , 1982. január 7–10., Las Vegas ).A Guinness-rekordok könyvében minden idők legtöbbet eladott számítógépes modelljeként szerepel, független becslések szerint 12,5 és 17 millió darab közé teszik az eladott darabszámot.
+
+Változatai:
+Commodore MAX
+SX-64
+Commodore 128
+Commodore 64C
+Commodore 65
+
+Adatok az eszközről:
+Megjelenés:	1982. augusztus
+Processzor:	MOS technológia 6510/8500(1,023 MHz vagy 0,985 MHz)
+Memória:	64 KB
+Tárhely:	20 KB
+Op. rendszer:	Commodore KERNAL vagy BASIC 2.0GEOS
+Grafikus egység:	VIC-II ( 320×200 , 16 szín)
+Kijelző:	Hozzácsatlakoztatható volt monitor vagy Tv
