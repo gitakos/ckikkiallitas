@@ -1,0 +1,15 @@
+IBM 5291 Terminal
+
+Történet:
+Az IBM 5291 termináljai is ugyanazt a billentyűzetet használták, mint a Datamaster, nagyobb házba szerelve, mint a PC/XT billentyűzet. (Ebből az okból kifolyólag a rajongók az 5291-et gyakran "Bigfoot"-ként emlegetik.) Ugyanaz a funkcionális elrendezése volt, mint az 5251-es terminál billentyűzetének, és 15 tűs csatlakozóval csatlakozik a terminálhoz. Szokatlan jellemző volt a billentyűzet három fokozatú felszállói. Az amerikai elrendezésű változatok cikkszáma 4176191 és 1397950.
+
+Leírás:
+Billentyűzetből és monitorból álló egység, amely egy távoli számítógéppel történő kommunikációt teszi lehetővé. A valódi terminál önállóan nem képes szoftverek futtatására, hanem mindössze egy központi számítógép, a terminálszerver kihelyezett állomását képezi: a felhasználói bevitelt közvetlenül ahhoz továbbítja, illetve a válaszként kapott információkat értelmezés és feldolgozás nélkül megjeleníti.
+
+Változatai:
+IBM 5291
+IBM 5291 F
+
+Adatok az eszközről:
+Megjelenés:	1987
+Lényege:	Egy távoli számítógéppel történő kommunikációt teszi lehetővé.
