@@ -4,71 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fooldal/css/timeline.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <!--link rel="stylesheet" href="../../style.css"-->
+    <title>CKIK - Commodore 64</title>
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
-
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
-
-
-    </ul>
-
-  </div>
-
-
-    </div>
-  </div>   
+    <div class="information">
+        <header>
+            <h1>Commodore 64</h1>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 szoveg">
+                        <!--<button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>-->
+                        <h2>Bevezetés:</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr0" class="tldr" style="display: none;"></span>
+                            <span id="fullText0" class="full-text" style="display: block;">A commodore 64 (vagy C64) egy idejében nagyon népszerű otthoni számítógép volt, ezáltal több milló példányt adtak el belőle
+                              1982-ben adata ki a Commodore International</span>
+                        </div>
+                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
+                        <h2>Jellemzői:</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="display: block;"></span>
+                            <span id="fullText1" class="full-text" style="display: none;">A C64-nek nevéhez illően 64 KB RAM-ja volt, rendelkezett egy SID 6581 hang chippel, és a VIC-II grafikai chippel.
+                              Ezek a különleges chippek lehetővé tették hogy a C64 tudjon 16 színből álló szín palettát használni,
+                              tudjon spriteokat használni, és jobb hangja legyen.
+                              A számítógépen egy sötét barna billentyűzet volt, bézs színű külsővel, a gép a BASIC programozási nyelvel volt programozható.</span>
+                        </div>
+                        <button id="button2" class="tldrbutton"  onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
+                        <h2>Fejlesztése:</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr2" class="tldr" style="display: block;"></span>
+                            <span id="fullText2" class="full-text" style="display: none;">A C64 a VIC-20 számítógép utódjának lett szánva, a különleges chippjei már 1981-ben ellettek készítve,
+                              de eredetileg a Commodore MAX Machine számára ami később nem állt gyártásba,
+                              a C64 fejlesztése közben a VIC-40 név alatt futott amíg át nem nevezték.</span>
+                        </div>
+                        <button id="button3" class="tldrbutton"  onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
+                        <h2>BASIC Programozási nyelv:</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr3" class="tldr" style="display: block;"></span>
+                            <span id="fullText2" class="full-text" style="display: none;">A C64 a Commodore BASIC 2.0 verzióját használta a BASIC programozási nyelvenek, akkor már elérhető volt a BASIC 4.0,
+                              de a C64 készítői nem látták fontosnak hogy a fejlettebb verziót használják,
+                              mivel arra számítottak hogy a vásárlók nem használnák ki a fejlettebb verzió funkcióit.</span>
+                        </div>
+                    </div>
+                    <!-- d-none d-sm-block -->
+                    <div class=" col-12 col-sm-4 "> 
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td colspan="2">
+                                          <div id="carouselExample" class="carousel slide">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                              </div>
+                                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                              </button>
+                                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                              </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablasorcim"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-12 col-sm-8"> 
+                        <h2>Fordította/Készítette:</h2>
+                            <hr>
+                            <p></p>    
+                            <h2>Forrás:</h2>
+                            <hr>
+                            <a class = "nemtudtamkitalalnikreativnevet" href="" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <p style="text-align: right;">
+            <button type="button" class="btn btn-secondary" onclick="location.href='../fooldal/index.html';">Vissza</button>
+        </p>    
+    </div>		
 </body>
+<script src="../tldr.js"></script>
 </html>

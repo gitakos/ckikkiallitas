@@ -19,10 +19,14 @@ de a C64 készítői nem látták fontosnak hogy a fejlettebb verziót használj
 mivel arra számítottak hogy a vásárlók nem használnák ki a fejlettebb verzió funkcióit.
 
 Táblázat:
-Típus;Otthoni Számítógép
-Gyártó;Commodore Business Machines
+Típus: Otthoni Számítógép
+Gyártó: Commodore Business Machines
+Programozási nyelv: Commodore BASIC 2.0
+RAM: 64 KB
+Hang Chip: SID 6581
+Video Chip: VIC-II
+Processzor: MOS Technology 6510
 
-Ez még hiányos!
 
 
 Források:
