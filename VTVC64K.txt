@@ -1,0 +1,12 @@
+VTVC64K
+
+Történet:
+A Videoton 1984-ben vásárolta meg az Enterprise-t is tervező cég egyik régebbi modelljének licencét. Az iskolaszámítógép program keretében állami megrendelésre 1988-ig 3000 db 32 KByte-os és 9000 db 64 Kbyte-os beépített memóriával rendelkező gépet adtak el iskolai felhasználásra. Azonban ez nemcsak egy egyszerű licenszgép, hiszen a Videoton szakemberei igen komoly mennyiségű fejlesztést végeztek rajta. Épp ezek miatt a fejlesztések miatt nagyobb csúszással kerülhetett piacra, csak 1986 második felétől volt kapható. A TVC 64k+ gépe, amivel a cég az iskola-számítógép pályázatra is benevezett, jelentős változtatásokon esett át. A videomemória mérete 64KB lett, azaz négy független képet tartalmazhatott egyidejűleg.
+
+
+Adatok az eszközről:
+Megjelenés:	1986
+Processzor:	Zilog Z80 3,1 MHz
+Memória:	32/64 kB RAM
+Tárhely:	20 kB ROM
+Kijelző:	Külső kijelző
