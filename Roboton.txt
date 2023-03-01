@@ -1,0 +1,13 @@
+Roboton
+
+Történet:
+A Német Demokratikus Köztársaságban 1969-ben alapított Robotron cég volt az ország legnagyobb iroda- és számítástechnikai cége. A termékpaletta az írógépektől a számológépeken át, a mainframe rendszereken keresztül a személyi számítógépekig tartott.
+
+Leírás:
+Az itt látható Robotron 5130 a cég 1983-ban, Lipcsében bemutatott terméke, a 8 bites, U880 processzorra (Z80 klón) épült. A munkaállomás beépített nyomtatót és monitort, valamint többféle háttértárat tartalmazhatott. (8”-os floppymeghajtó magnókazetta, vagy 5.25”-os floppymeghajtó.)
+
+Adatok az eszközről:
+Megjelenés:	1983
+Processzor:	U880, 2.2 MHz
+Memória:	64 KB
+Tárhely:	nincs
