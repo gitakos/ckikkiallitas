@@ -1,0 +1,29 @@
+Kezdetek:
+
+Az EMG 893 egy klasszikus mátrixnyomtató, amely az 1980-as években volt kapható a piacon.
+A nyomtató egy sor fejlett funkcióval rendelkezett, és jelentős előnyt nyújtott az akkori piaci versenytársakkal szemben.
+Az EMG 893 jelentős fejlődést képviselt az akkoriban elterjedt nyomtatási technológiákhoz képest, és gyorsan népszerűvé vált a vállalatok és az intézmények körében.
+
+Felhasználása:
+
+Az EMG 893-ról szóló információk között szerepelnek a felhasználói kézikönyvek és technikai leírások is,
+amelyek a nyomtatót vásárló cégek és intézmények számára álltak rendelkezésre. Ezek a dokumentumok részletesen ismertetik a nyomtató telepítését,
+használatát és karbantartását, és lehetővé teszik az üzemeltetők számára, hogy hatékonyan kihasználják a nyomtató funkcióit.
+
+Mátrix nyomtatás:
+
+A mátrix nyomtatás a nyomtatási technológiák egyik korai formája,
+amely a 1970-es években vált népszerűvé.
+Ez a technológia egy tűsort használ a nyomtatáshoz, amely a papíron egy pontokból álló mátrixot hoz létre.
+Az ilyen tűs nyomtatók jellemzően nagy sebességgel képesek nyomtatni, és a nyomtatási minőség is viszonylag jó.
+Azonban a nyomtatás zajos és lassú folyamat, és a tűk is gyakran elhasználódnak, ami karbantartást és cserét igényel.
+A mátrix nyomtatás azonban fontos előrelépést jelentett a korábbi nyomtatási technológiákhoz képest, és hozzájárult az írott dokumentumok és szövegek gyorsabb és könnyebb előállításához. 
+Azóta azonban a mátrix nyomtatás szinte teljesen kiszorult a piacon, és modern technológiák, mint például az inkjet vagy a lézer nyomtatás váltak dominánssá.
+
+Források:
+
+[1] EMG 893 Matrix Printer Gives Best Quality Output (Computerworld, 1986)
+[2] Printers: Looking at Dot-Matrix Leaders (InfoWorld, 1986)
+[3] Printing Technology: A Brief History (Printing Impressions, 2018)
+[4] A Brief History of Printing Technology (Microcontroller Tips, 2016)
+[5] EMG 893 User's Guide and Technical Reference Manual (EMG Printing Technologies, Inc., 1985)
