@@ -4,71 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fooldal/css/timeline.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <!--link rel="stylesheet" href="../../style.css"-->
+    <title>CKIK - Mera-9150 </title>
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
-
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
-
-
-    </ul>
-
-  </div>
-
-
-    </div>
-  </div>   
+    <div class="information">
+        <header>
+            <h1>Mera-9150</h1>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 szoveg">
+                        <h2>Általánosan</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="display: block;">A MERA 9150 egy nagy kapacitású és gazdaságos adathordozók elkészítésére szolgáló számítógép.</span>
+                        </div>
+                        <button id="button2" class="tldrbutton"  onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
+                        <h2>Adat tárolási formák</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr2" class="tldr" style="display: block;"></span>
+                            <span id="fullText2" class="full-text" style="display: none;">Az adatokat közvetlenül a mágneslemezre viszi (KEY-TO-DISC), és az adatok bevitele a rendszerbe képernyővel ellátott billentyűzetről, kártyaolvasókról és adatátviteli vonalon keresztül történik.
+                              A gép alkalmas elsődleges feldolgozásra, adatrendezésre, és az adatok formátumának módosítására a mágnesszalagra vagy sornyomtatóra kerülése előtt</span>
+                        </div>
+                        <button id="button3" class="tldrbutton"  onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
+                        <h2>Terminálok beli rendszerek</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr3" class="tldr" style="display: block;"></span>
+                            <span id="fullText3" class="full-text" style="display: none;">A rendszer megbízható, és az adatokat közvetlenül fel lehet dolgozni a nagyszámítógépen.
+                              A terminálbillentyűzetről történő rögzítés a fő adatfelviteli módszer, és egyszerre maximum 32 terminált tud kiszolgálni.
+                              A MERA 9150 rendszer szabályos konfigurációja rögzítői munkahelyből (maximum 32), központi egységből, mágneslemezből, mágnesszalagos tárolóból és egyéb periférikus készülékekből áll.</span>
+                        </div>
+                        <button id="button4" class="tldrbutton"  onclick="toggleFullText('tldr4', 'fullText4','button4')">Mutass többet</button>
+                        <h2>Alkalmasság és adathelyesség</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr4" class="tldr" style="display: block;"></span>
+                            <span id="fullText3" class="full-text" style="display: none;">Az adathelyesség-ellenőrzési eljárások magukba foglalják az egyes karakterek és adatmezők bevitelének ellenőrzését, az adatrekordok és adatkötegek ellenőrzését, valamint az adatok kivitelekor végzett ellenőrzést.
+                              A rendszer alkalmas oktatásra és programok bemutatására is, ahol az oktató által beírt karakterek megjelennek az 1.-16. sorszámú terminálon (visszhang funkció).</span>
+                        </div>
+                        <button id="button5" class="tldrbutton"  onclick="toggleFullText('tldr5', 'fullText5','button5')">Mutass többet</button>
+                        <h2>Periférikus készülékei és felhasználása</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr5" class="tldr" style="display: block;"></span>
+                            <span id="fullText5" class="full-text" style="display: none;">Az egyéb periférikus készülékek közé tartozhatnak például a kártyaolvasók, amelyek segítségével a rendszerbe a kártyákról lehet adatot bevinni, vagy akár adatátviteli vonalak is, amelyeken keresztül a rendszer kommunikálhat más számítógépekkel.
+                              A MERA 9150 számítógép tehát nagy kapacitású, gazdaságos rendszer volt, amely számos feladatra alkalmazható volt, beleértve az adathordozók készítését, az adatok feldolgozását, rendezését és formázását.
+                              A rendszer megbízhatóságát és rugalmasságát a terminálon történő adatrögzítés, valamint az adathelyesség-ellenőrzési eljárások és a periférikus készülékek sokfélesége biztosította.</span>
+                        </div>
+                    </div>
+                    <!-- d-none d-sm-block -->
+                    <div class=" col-12 col-sm-4 "> 
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td colspan="2">
+                                          <div id="carouselExample" class="carousel slide">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                              </div>
+                                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                              </button>
+                                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                              </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablasorcim"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-12 col-sm-8"> 
+                        <h2>Fordította/Készítette:</h2>
+                            <hr>
+                            <p></p>    
+                            <h2>Forrás:</h2>
+                            <hr>
+                            <a class = "nemtudtamkitalalnikreativnevet" href="" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <p style="text-align: right;">
+            <button type="button" class="btn btn-secondary" onclick="location.href='../fooldal/index.html';">Vissza</button>
+        </p>    
+    </div>		
 </body>
+<script src="../tldr.js"></script>
 </html>
