@@ -1,0 +1,23 @@
+A MERA 9150 egy nagy kapacitású és gazdaságos adathordozók elkészítésére szolgáló számítógép.
+
+Adat tárolási formák:
+
+Az adatokat közvetlenül a mágneslemezre viszi (KEY-TO-DISC), és az adatok bevitele a rendszerbe képernyővel ellátott billentyűzetről, kártyaolvasókról és adatátviteli vonalon keresztül történik.
+A gép alkalmas elsődleges feldolgozásra, adatrendezésre, és az adatok formátumának módosítására a mágnesszalagra vagy sornyomtatóra kerülése előtt.
+
+Terminálok beli rendszerek:
+
+A rendszer megbízható, és az adatokat közvetlenül fel lehet dolgozni a nagyszámítógépen.
+A terminálbillentyűzetről történő rögzítés a fő adatfelviteli módszer, és egyszerre maximum 32 terminált tud kiszolgálni.
+A MERA 9150 rendszer szabályos konfigurációja rögzítői munkahelyből (maximum 32), központi egységből, mágneslemezből, mágnesszalagos tárolóból és egyéb periférikus készülékekből áll.
+
+Alkalmasság és adathelyesség:
+
+Az adathelyesség-ellenőrzési eljárások magukba foglalják az egyes karakterek és adatmezők bevitelének ellenőrzését, az adatrekordok és adatkötegek ellenőrzését, valamint az adatok kivitelekor végzett ellenőrzést.
+A rendszer alkalmas oktatásra és programok bemutatására is, ahol az oktató által beírt karakterek megjelennek az 1.-16. sorszámú terminálon (visszhang funkció).
+
+Periférikus készülékei és felhasználása:
+
+Az egyéb periférikus készülékek közé tartozhatnak például a kártyaolvasók, amelyek segítségével a rendszerbe a kártyákról lehet adatot bevinni, vagy akár adatátviteli vonalak is, amelyeken keresztül a rendszer kommunikálhat más számítógépekkel.
+A MERA 9150 számítógép tehát nagy kapacitású, gazdaságos rendszer volt, amely számos feladatra alkalmazható volt, beleértve az adathordozók készítését, az adatok feldolgozását, rendezését és formázását.
+A rendszer megbízhatóságát és rugalmasságát a terminálon történő adatrögzítés, valamint az adathelyesség-ellenőrzési eljárások és a periférikus készülékek sokfélesége biztosította.
