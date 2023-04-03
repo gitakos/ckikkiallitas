@@ -1,0 +1,22 @@
+A Proper 16 - Európa első XT klónja
+
+Az SzKI (Számítástechnikai Kutató Intézet) fejlesztése, a Proper 16, az IBM PC klónjának egyik korai példánya volt.
+A gépen a PROPOS 16 operációs rendszer futott, amelyet Faix Gábor vezetése alatt terveztek.
+
+Az első magyar PC
+
+A magyar PC az IBM PC terveinek visszafejtése alapján készült az Intel D 8088 mikroprocesszorral és 256 Kilobájt memóriával.
+A gép több programnyelvet támogatott, mint például a Basic, Fortran és Pascal. Bár a gép ára magas volt, a vállalatok havi bérléssel is élhettek.
+
+Magyar klóngyártók
+
+Az eredeti Proper 16 után a magyar klóngyártók (Videoton, Műszertechnika, Controll, Albacomp) többnyire kész, távol-keleti részegységekből összeállított és "felülmatricázott" típusokat gyártottak.
+Ez a módszer a 80-as évek második felétől kezdett kifizetődni.
+
+Hatása/Végszó:
+
+Ez az összeszerelési mód lehetővé tette a klóngyártóknak, hogy az olcsóbb árú, de minőségi alkatrészeket importálják, majd ezekből saját számítógépeket állítsanak össze.
+Ez a gyakorlat elterjedté vált a magyar számítástechnikai iparban, és az olcsóbb, de minőségi számítógépek egyre szélesebb rétegek számára váltak elérhetővé.
+Azonban a magyar klóngyártók továbbra is fejlesztették saját számítógépeiket, és a Proper család tagjai mellett olyan készülékek is készültek, mint a Videoton TV Computer és a Műszertechnika MBS-100.
+Ezek a számítógépek a magyarországi felhasználók számára váltak elérhetővé és népszerűvé, és hozzájárultak a hazai számítástechnikai ipar fejlődéséhez.
+Összességében a Proper 16 és az azt követő magyar klóngyártás jelentős mérföldkő volt a hazai számítástechnikai iparban, és lehetővé tette az olcsóbb, minőségi számítógépek szélesebb körű elterjedését az országban.
