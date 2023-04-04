@@ -4,71 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fooldal/css/timeline.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <!--link rel="stylesheet" href="../../style.css"-->
+    <title>CKIK - Proper 16</title>
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
+    <div class="information">
+        <header>
+            <h1>Proper 16</h1>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 szoveg">
+                        <h2>A Proper 16 - Európa első XT klónja</h2>
+                        <hr>
+                        <div>
+                            <span class="tldr" style="display: block;">Az SzKI (Számítástechnikai Kutató Intézet) fejlesztése, a Proper 16, az IBM PC klónjának egyik korai példánya volt.
+                              A gépen a PROPOS 16 operációs rendszer futott, amelyet Faix Gábor vezetése alatt terveztek.
+                              </span>
+                        </div>
 
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
+                        <h2>Az első magyar PC</h2>
+                        <hr>
+                        <div>
+                            <span class="tldr" style="display: block;">A magyar PC az IBM PC terveinek visszafejtése alapján készült az Intel D 8088 mikroprocesszorral és 256 Kilobájt memóriával.
+                              A gép több programnyelvet támogatott, mint például a Basic, Fortran és Pascal. Bár a gép ára magas volt, a vállalatok havi bérléssel is élhettek.
+                              </span>
+                        </div>
 
+                        <h2>Magyar klóngyártók</h2>
+                        <hr>
+                        <div>
+                            <span class="tldr" style="display: block;">Az eredeti Proper 16 után a magyar klóngyártók (Videoton, Műszertechnika, Controll, Albacomp) többnyire kész, távol-keleti részegységekből összeállított és "felülmatricázott" típusokat gyártottak.
+                            Ez a módszer a 80-as évek második felétől kezdett kifizetődni.</span>
+                        </div>
 
-    </ul>
-
-  </div>
-
-
-    </div>
-  </div>   
+                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
+                        <h2>Hatása/Végszó</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="display: block;">
+                              </span>
+                            <span id="fullText1" class="full-text" style="display: none;">Ez az összeszerelési mód lehetővé tette a klóngyártóknak, hogy az olcsóbb árú, de minőségi alkatrészeket importálják, majd ezekből saját számítógépeket állítsanak össze.
+                              Ez a gyakorlat elterjedté vált a magyar számítástechnikai iparban, és az olcsóbb, de minőségi számítógépek egyre szélesebb rétegek számára váltak elérhetővé.
+                              Azonban a magyar klóngyártók továbbra is fejlesztették saját számítógépeiket, és a Proper család tagjai mellett olyan készülékek is készültek, mint a Videoton TV Computer és a Műszertechnika MBS-100.
+                              Ezek a számítógépek a magyarországi felhasználók számára váltak elérhetővé és népszerűvé, és hozzájárultak a hazai számítástechnikai ipar fejlődéséhez.
+                              Összességében a Proper 16 és az azt követő magyar klóngyártás jelentős mérföldkő volt a hazai számítástechnikai iparban, és lehetővé tette az olcsóbb, minőségi számítógépek szélesebb körű elterjedését az országban.</span>
+                        </div>
+                    </div>
+                    <!-- d-none d-sm-block -->
+                    <div class=" col-12 col-sm-4 "> 
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td colspan="2">
+                                          <div id="carouselExample" class="carousel slide">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                  <img src="../kepek/szamitogep/Proper_16a_1.JPG" class="d-block w-100" alt="Proper 16 Monitor" title="Proper 16 Monitor">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/Proper_16a_2.JPG" class="d-block w-100" alt="Proper 16" title="Proper 16">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/Proper_16a_3.JPG"class="d-block w-100" alt="Proper 16 Billentyűzet" title="Proper 16 Billentyűzet">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/Proper_16a_4.JPG"class="d-block w-100" alt="Proper 16 Belülről egyik oldalról" title="Proper 16 Belülről egyik oldalról">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep/Proper_16a_5.JPG"class="d-block w-100" alt="Proper 16 Portok" title="Proper 16 Portok">
+                                                </div>
+                                              </div>
+                                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                              </button>
+                                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                              </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablasorcim"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-12 col-sm-8"> 
+                        <h2>Fordította/Készítette:</h2>
+                            <hr>
+                            <p></p>    
+                            <h2>Forrás:</h2>
+                            <hr>
+                            <a class = "nemtudtamkitalalnikreativnevet" href="" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <p style="text-align: right;">
+            <button type="button" class="btn btn-secondary" onclick="location.href='../fooldal/index.html';">Vissza</button>
+        </p>    
+    </div>		
 </body>
+<script src="../tldr.js"></script>
 </html>

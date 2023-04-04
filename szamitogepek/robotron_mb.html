@@ -4,71 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BDM-modells</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fooldal/css/timeline.css">
+    <link rel="icon" type="image/x-icon" href="https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90">
+    <!--link rel="stylesheet" href="../../style.css"-->
+    <title>CKIK - Robotron</title>
 </head>
 <body>
-  <input type="checkbox" id="icon" />
-  <label for="icon"  class="iconbtn">
-    <i class="fa fa-times" id="closebtn"></i>
-    <i class="fa fa-bars" id="openbtn"></i>
-  </label>
-
-  <div class="sidenav">
-    <div class="logo">
-      <img src="https://t3.ftcdn.net/jpg/03/76/66/92/360_F_376669242_STB3e4pmjVmsdKuUDNq7U18Ze0p8aWUs.jpg" alt="">
-    </div>
-    <ul class="mainNav">
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>Main Page</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep1</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep2</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep3</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep4</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep5</span>
-        </a>
-      </li>
-      <li class="single-nav">
-        <a href="#">
-          <i class="fa fa-chevron-right "></i>
-          <span>gep6</span>
-        </a>
-      </li>
-
-
-    </ul>
-
-  </div>
-
-
-    </div>
-  </div>   
+    <div class="information">
+        <header>
+            <h1>Robotron</h1>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-8 szoveg">
+                        <!--<button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
+                        <h2></h2>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="display: block;"></span>
+                            <span id="fullText1" class="full-text" style="display: none;"></span>
+                        </div>-->
+                        <h2>Történet</h2>
+                        <hr>
+                        <p>
+                          A Német Demokratikus Köztársaságban 1969-ben alapított Robotron cég volt az ország legnagyobb iroda- és számítástechnikai cége. A termékpaletta az írógépektől a számológépeken át, a mainframe rendszereken keresztül a személyi számítógépekig tartott.
+                        </p>
+                        <h2>Leírás</h2>
+                        <hr>
+                        <p>
+                          Az itt látható Robotron 5130 a cég 1983-ban, Lipcsében bemutatott terméke, a 8 bites, U880 processzorra (Z80 klón) épült. A munkaállomás beépített nyomtatót és monitort, valamint többféle háttértárat tartalmazhatott. (8”-os floppymeghajtó magnókazetta, vagy 5.25”-os floppymeghajtó.)
+                        </p>
+                    </div>
+                    <!-- d-none d-sm-block -->
+                    <div class=" col-12 col-sm-4 "> 
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td colspan="2">
+                                          <div id="carouselExample" class="carousel slide">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                  <img src="../kepek/szamitogep/Robotron_1.jpg" class="d-block w-100" alt="Robotron" title="Robotron">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                                <div class="carousel-item">
+                                                  <img src="../kepek/szamitogep_alex_teszt.png" class="d-block w-100" alt="" title="">
+                                                </div>
+                                              </div>
+                                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                              </button>
+                                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                              </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablasorcim">Megjelenés</td>
+                                        <td>1983</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="tablasorcim">Processzor</td>
+                                      <td>U880, 2.2 MHz</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="tablasorcim">Memória</td>
+                                      <td>64 KB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-12 col-sm-8"> 
+                        <h2>Fordította/Készítette:</h2>
+                            <hr>
+                            <p></p>    
+                            <h2>Forrás:</h2>
+                            <hr>
+                            <a class = "nemtudtamkitalalnikreativnevet" href="" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <p style="text-align: right;">
+            <button type="button" class="btn btn-secondary" onclick="location.href='../fooldal/index.html';">Vissza</button>
+        </p>    
+    </div>		
 </body>
+<script src="../tldr.js"></script>
 </html>

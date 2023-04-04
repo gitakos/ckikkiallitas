@@ -1,4 +1,4 @@
-Roboton
+Robotron
 
 Történet:
 A Német Demokratikus Köztársaságban 1969-ben alapított Robotron cég volt az ország legnagyobb iroda- és számítástechnikai cége. A termékpaletta az írógépektől a számológépeken át, a mainframe rendszereken keresztül a személyi számítógépekig tartott.
@@ -10,4 +10,4 @@ Adatok az eszközről:
 Megjelenés:	1983
 Processzor:	U880, 2.2 MHz
 Memória:	64 KB
-Tárhely:	nincs
+Tárhely:	nincs //Ha nincs akkor nem kell oda írni
