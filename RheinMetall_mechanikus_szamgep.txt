@@ -1,0 +1,22 @@
+Rheinmetall mechanikus számológép
+
+Bevezetés:
+
+A Rheinmetall mechanikus számológép a 20. század közepén volt elterjedt típusa a mechanikus számológépeknek.
+A 141523-as modellszámú változata kifejezetten népszerű volt.
+
+Formavilága / anyaga:
+
+A számológép egy nagy, nehéz tárgy volt, amelynek alapja acélból készült, és két nagy forgó kerékkel rendelkezett a jobb oldalon.
+A számolómechanizmusok belső részei fém és műanyagból készültek, és az egész eszköz hagyományosan fekete színű volt.
+
+Használata:
+
+Az eszköz használata egyszerű volt. Az egyik forgó kerék a számokat tartalmazta, míg a másik a műveleteket végezte.
+Az egyes számjegyeket a számok keréken külön-külön lehetett beállítani a számoláshoz, majd a műveleti kerék segítségével lehetett végrehajtani a kívánt aritmetikai műveletet. 
+
+Összeségében: 
+
+A Rheinmetall mechanikus számológépek megbízhatóak és nagyon tartósak voltak, ami miatt a mérnökök, matematikusok és pénzügyi szakemberek körében népszerűek voltak. 
+Azonban a digitális technológiai forradalom és az elektronikus számológépek elterjedése az 1970-es években fokozatosan kiszorította a mechanikus számológépeket, beleértve a Rheinmetall típust is.
+Ma már inkább csak gyűjtők vagy múzeumok tartják számon ezeket az eszközöket.
