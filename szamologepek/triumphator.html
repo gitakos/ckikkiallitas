@@ -20,33 +20,49 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-8 szoveg">
+                        <button id="button1" class="tldrbutton"  onclick="toggleFullText('tldr1', 'fullText1','button1')">Mutass többet</button>
                         <h2>Triumphator szorzógép szerkezete</h2>
-						<hr>
-						<p>A Triumphator CRN2 egy szélkerekes számológép.
-							A bemenet 10 számjegyű, a számlálóban 8, a kimeneti regiszterben pedig 13 számjegy található. A lekerekített felső burkolat öntött műanyag fémes bevonattal, de a többi fém.
-							Szinte minden kezelőszerv a jobb oldalon található, így egy kézzel is könnyen kezelhető. A kocsiváltás a hajtókar alatti kar segítségével történik, nagyon hasonló a Schubert DRV-hez(szövegre kattintva további információért) .
-							A bemenethez van egy törlőkar, a kocsin pedig egy törlőkar van mellette két kapcsolóval, amellyel kiválasztható, hogy a számlálót, a kimeneti regisztert vagy mindkettőt töröljük.
-							A fő hajtókar melletti kapcsoló választja ki a számláló irányát. Hátsó átviteli mechanizmussal rendelkezik - az R gomb megnyomásával és a kimeneti regiszter törlésével a kimenet a bemenetre kerül.
-							A gyártás 1957-ben vagy 1959-ben kezdődött (a források nem értenek egyet ezzel kapcsolatban), és körülbelül 1965-ig tartottak. A későbbi verziók kisebb változtatásokat tartalmaznak.
-							Különösen a kocsi helyzetjelzője a bemeneti érintkezők jobb oldaláról a bal oldalra került, és a felső burkolat már nem veszi körül a bemeneti érintkezők jobb oldalát.
-							A kocsi a fenéklemezen lévő nyíllal jelölt lyukon keresztül elérhető csavarral rögzíthető a szállításhoz.
-							A burkolat eltávolítása sok csavar kicsavarásával jár, mivel a négy lábat el kell távolítani, mindegyik két csavarral.
-							A későbbi változatoknál az alsó lemezen extra lyukak találhatók, hogy hozzáférjenek a felső burkolat csavarjaihoz.</p>
-						<h2>Triumphator szorzógép történelme</h2>
-						<hr>
-						<p>A Triumphator egy Lipcse közelében (kelet-)németországi székhelyű cég. 1900-ban alapították Leipziger Röhrenwerke GmbH(szövegre kattintva további információért) néven, és vákuumcsöveket gyártott.
-							1904-ben kezdték el a Triumphator márkanév alatt forgókerekes számológépek gyártását.
-							Ezt a fejlesztést Otto Holzapfel mérnök vezette, aki korábban a Grimme Natalisnál(Brunsviga) (szövegre kattintva további információért) dolgozott.
-							1907-ben a cég nevét Triumphatorwerk mbH-ra(szövegre kattintva további információért) változtatta, és csak kisebb névváltoztatásokkal folytatta a számológépek gyártását az 1960-as évek végéig.Az idő nagy részében a gyár Mölkauban működött, Lipcsétől keletre.
-							Lipcse Kelet-Németországban található, így a második világháború után a Triumphator által gyártott számológépeket ma már többnyire a keleti blokkban használták, bár néhányat Nyugatra is exportáltak.
-							1969-ben a Triumphator céget a VEB Buchungsmaschinenwerk Karl-Marx-Stadt(szövegre kattintva további információért) vette át, majd a Triumphator márkaként megszűnt.</p>
-						<h2>Triumphator szorzógép modellek</h2>
-						<hr>
-						<p>Az elszámolást úgy alakították át, hogy a kocsin egyetlen kart használjon kapcsolókkal annak kiválasztásához, hogy a számlálót, a regisztert vagy mindkettőt törölje.
-							A számlálóirány kapcsolót is áthelyezték a hajtókar mellé. A modellnevekhez 1 van hozzáfűzve. Nem világos, hogy ez pontosan mikor történt – az egyik forrás szerint 1952/1953, másik 195
-							A burkolatot újratervezték, sima, lekerekített megjelenést kölcsönözve neki. Ez a lekerekített felső tok műanyagból készült.
-							Mechanikailag ezek a modellek változatlanok. A források ismét nem értenek egyet a dátumot illetően, és 1957 vagy 1959 lehetett.
-							Egy olcsóbb kis kapacitású modellt ( Triumphator KN)(szövegre kattintva további információért) is bemutattak. A gyártás 1963-ban vagy 1965-ben fejeződött be.</p>
+                        <hr>
+                        <div>
+                            <span id="tldr1" class="tldr" style="display: block;">A Triumphator CRN2 egy 1957-ben vagy 1959-ben gyártott szélkerekes számológép, amelynek bemenete 10 számjegyű, számlálója 8, kimeneti regisztere pedig 13 számjegyű. A kezelőszervek többsége a jobb oldalon található, a kocsi helyzetjelzője a későbbi verzióknál bal oldalra került. A szállításhoz a kocsi csavarjával rögzíthető, de a burkolat eltávolítása sok csavarozást igényel. A hátsó átviteli mechanizmussal rendelkező gép kimenete a bemenetre állítható az R gomb megnyomásával. A készülék felső burkolata öntött műanyag, fémes bevonattal, míg a többi része fém.</span>
+                            <span id="fullText1" class="full-text" style="display: none;">A Triumphator CRN2 egy szélkerekes számológép.
+                                A bemenet 10 számjegyű, a számlálóban 8, a kimeneti regiszterben pedig 13 számjegy található. A lekerekített felső burkolat öntött műanyag fémes bevonattal, de a többi fém.
+                                Szinte minden kezelőszerv a jobb oldalon található, így egy kézzel is könnyen kezelhető. A kocsiváltás a hajtókar alatti kar segítségével történik, nagyon hasonló a Schubert DRV-hez(szövegre kattintva további információért) .
+                                A bemenethez van egy törlőkar, a kocsin pedig egy törlőkar van mellette két kapcsolóval, amellyel kiválasztható, hogy a számlálót, a kimeneti regisztert vagy mindkettőt töröljük.
+                                A fő hajtókar melletti kapcsoló választja ki a számláló irányát. Hátsó átviteli mechanizmussal rendelkezik - az R gomb megnyomásával és a kimeneti regiszter törlésével a kimenet a bemenetre kerül.
+                                A gyártás 1957-ben vagy 1959-ben kezdődött (a források nem értenek egyet ezzel kapcsolatban), és körülbelül 1965-ig tartottak. A későbbi verziók kisebb változtatásokat tartalmaznak.
+                                Különösen a kocsi helyzetjelzője a bemeneti érintkezők jobb oldaláról a bal oldalra került, és a felső burkolat már nem veszi körül a bemeneti érintkezők jobb oldalát.
+                                A kocsi a fenéklemezen lévő nyíllal jelölt lyukon keresztül elérhető csavarral rögzíthető a szállításhoz.
+                                A burkolat eltávolítása sok csavar kicsavarásával jár, mivel a négy lábat el kell távolítani, mindegyik két csavarral.
+                                A későbbi változatoknál az alsó lemezen extra lyukak találhatók, hogy hozzáférjenek a felső burkolat csavarjaihoz.</span>
+                        </div>
+                        <button id="button2" class="tldrbutton"  onclick="toggleFullText('tldr2', 'fullText2','button2')">Mutass többet</button>
+                        <h2>Triumphator szorzógép történelme</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr2" class="tldr" style="display: block;">A Triumphator egy Lipcse közelében (kelet-)németországi székhelyű cég volt, amely 1900-ban alakult, és eleinte vákuumcsöveket gyártott. 1904-ben kezdték el a márkanév alatt forgókerekes számológépek gyártását, és a fejlesztést Otto Holzapfel mérnök vezette. A cég nevét 1907-ben Triumphatorwerk mbH-ra változtatták, és az 1960-as évek végéig folytatták a számológépek gyártását. A legtöbb időt a gyár Mölkauban működött, és a második világháború után a számológépeket főleg a keleti blokkban használták. 1969-ben a cég átvételre került, majd a Triumphator márkanév megszűnt.</span>
+                            <span id="fullText2" class="full-text" style="display: none;">A Triumphator egy Lipcse közelében (kelet-)németországi székhelyű cég. 1900-ban alapították Leipziger Röhrenwerke GmbH(szövegre kattintva további információért) néven, és vákuumcsöveket gyártott.
+                                1904-ben kezdték el a Triumphator márkanév alatt forgókerekes számológépek gyártását.
+                                Ezt a fejlesztést Otto Holzapfel mérnök vezette, aki korábban a Grimme Natalisnál(Brunsviga) (szövegre kattintva további információért) dolgozott.
+                                1907-ben a cég nevét Triumphatorwerk mbH-ra(szövegre kattintva további információért) változtatta, és csak kisebb névváltoztatásokkal folytatta a számológépek gyártását az 1960-as évek végéig.Az idő nagy részében a gyár Mölkauban működött, Lipcsétől keletre.
+                                Lipcse Kelet-Németországban található, így a második világháború után a Triumphator által gyártott számológépeket ma már többnyire a keleti blokkban használták, bár néhányat Nyugatra is exportáltak.
+                                1969-ben a Triumphator céget a VEB Buchungsmaschinenwerk Karl-Marx-Stadt(szövegre kattintva további információért) vette át, majd a Triumphator márkaként megszűnt.</span>
+                        </div>
+
+
+                        <button id="button3" class="tldrbutton"  onclick="toggleFullText('tldr3', 'fullText3','button3')">Mutass többet</button>
+                        <h2>Triumphator szorzógép modelleks</h2>
+                        <hr>
+                        <div>
+                            <span id="tldr3" class="tldr" style="display: block;">Az elszámolás könnyítése érdekében az új modellek egy kart használtak a számláló, a regiszter vagy mindkettő törléséhez. A számlálóirány kapcsoló a hajtókar mellé került. A burkolatot sima, lekerekített megjelenésre tervezték, műanyagból készült. Mechanikailag a modellek változatlanok maradtak. Egy olcsóbb kis kapacitású modellt is bemutattak. A gyártás 1963-ban vagy 1965-ben fejeződött be.</span>
+                            <span id="fullText3" class="full-text" style="display: none;">Az elszámolást úgy alakították át, hogy a kocsin egyetlen kart használjon kapcsolókkal annak kiválasztásához, hogy a számlálót, a regisztert vagy mindkettőt törölje.
+                                A számlálóirány kapcsolót is áthelyezték a hajtókar mellé. A modellnevekhez 1 van hozzáfűzve. Nem világos, hogy ez pontosan mikor történt – az egyik forrás szerint 1952/1953, másik 195
+                                A burkolatot újratervezték, sima, lekerekített megjelenést kölcsönözve neki. Ez a lekerekített felső tok műanyagból készült.
+                                Mechanikailag ezek a modellek változatlanok. A források ismét nem értenek egyet a dátumot illetően, és 1957 vagy 1959 lehetett.
+                                Egy olcsóbb kis kapacitású modellt ( Triumphator KN)(szövegre kattintva további információért) is bemutattak. A gyártás 1963-ban vagy 1965-ben fejeződött be.</span>
+                        </div>
+
+
                     </div>
                     <!-- d-none d-sm-block -->
                     <div class=" col-12 col-sm-4 "> 
@@ -119,11 +135,8 @@
                     <div class="col-12 col-sm-8"> 
                         <h2>Készítette:</h2>
                             <hr>
-                            <p>???</p>    
-                            <h2>Forrás:</h2>
-                            <hr>
-                            <a class = "nemtudtamkitalalnikreativnevet" href="https://www.google.com/search?q=triumphator+sz%C3%A1mol%C3%B3g%C3%A9p" target="_blank">Meg kell keresni</a>
-                    </div>
+                            <p>11.C osztály</p>        
+                        </div>
                 </div>
             </div>
         </main>
@@ -133,4 +146,5 @@
     </div>
 			
 </body>
+<script src="../tldr.js"></script>
 </html>
