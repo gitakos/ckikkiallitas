@@ -1,0 +1,16 @@
+MERA 9450
+
+Gyártásának oka
+
+EA Control Data Corporation (USA) 1973-ban vásárolt egy licencet a CDC 9425 lemezolvasóra, és ennek alapján gyártották a 9425-es eszközt.
+Később azonban a MERA 9450 saját fejlesztésű lemezolvasó váltotta fel ezt a modellt.
+
+Működése/Verziói
+
+Két verziója volt a MERA 9450-nek: a 100 tpi verzió egy lemezt tudott kezelni, amelynek kapacitása 25 Mb volt (SM5401), míg a 200 tpi verzió egy lemezt tudott kezelni, amelynek kapacitása 50 Mb volt (SM5409).
+A lemezolvasó két lemezt használ, az egyik fixen van rögzítve, míg a másik kivehető kazettaként van kialakítva a MERA 847 (CDC 847, IBM 5440) és a MERA 847PG (200 tpi-hez) típusú kazettákban.
+A lemezolvasó két változatban készült: az egyik verzió az SM számítógép állványába illeszthető, a másik változat pedig padlóállványra van tervezve.
+A lemezolvasó teszteléséhez és beállításához a TD1r típusú tesztert használták.
+Az SM5401 lemezolvasóval közös teszteket 1977 júliusában végezték.
+
+Tábla:

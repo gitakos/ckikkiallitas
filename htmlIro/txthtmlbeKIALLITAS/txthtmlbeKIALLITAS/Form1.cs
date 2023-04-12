@@ -101,7 +101,7 @@ namespace txthtmlbeKIALLITAS
             }
             template += "                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <!--<div class=\"row\"> \r\n                    <div class=\"col-12 col-sm-8\"> \r\n                        <h2>Fordította/Készítette:</h2>\r\n                            <hr>\r\n                            <p></p>    \r\n                            <h2>Forrás:</h2>\r\n                            <hr>\r\n                            <a class = \"nemtudtamkitalalnikreativnevet\" href=\"\" target=\"_blank\"></a>\r\n                    </div>\r\n                </div>-->\r\n            </div>\r\n        </main>\r\n        <p style=\"text-align: right;\">\r\n            <button type=\"button\" class=\"btn btn-secondary\" onclick=\"location.href='../fooldal/index.html';\">Vissza</button>\r\n        </p>    \r\n    </div>\t\t\r\n</body>\r\n<script src=\"../tldr.js\"></script>\r\n</html>";
             r.Close();
-            StreamWriter f = new StreamWriter("gen.html");
+            StreamWriter f = new StreamWriter(cim+".html");
             f.WriteLine(template);
             f.Close();
         }
