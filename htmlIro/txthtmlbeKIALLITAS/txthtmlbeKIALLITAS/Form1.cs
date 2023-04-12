@@ -71,9 +71,9 @@ namespace txthtmlbeKIALLITAS
             CÍM|TARTALOM
             */
             StreamReader r = new StreamReader(faljNev);
-            bool bekezdesbenvagye = false;
             string cim = r.ReadLine();
-            template += "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD\" crossorigin=\"anonymous\">\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN\" crossorigin=\"anonymous\"></script>\r\n    <link rel=\"stylesheet\" href=\"../fooldal/css/timeline.css\">\r\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90\">\r\n    <!--link rel=\"stylesheet\" href=\"../../style.css\"-->\r\n    <title>CKIK - " + cim + "</title>\r\n</head>\r\n<body>\r\n    <div class=\"information\">\r\n        <header>\r\n            <h1>"+cim+"</h1>\r\n        </header>\r\n        <main>\r\n            <div class=\"container-fluid\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-12 col-sm-8 szoveg\">";
+            template += "<!DOCTYPE html>\r\n<html lang=\"hu\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD\" crossorigin=\"anonymous\">\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN\" crossorigin=\"anonymous\"></script>\r\n    <link rel=\"stylesheet\" href=\"../fooldal/css/timeline.css\">\r\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"https://ckik.hu/_next/image?url=https%3A%2F%2Fceg-kozgazdasagi.cms.intezmeny.edir.hu%2Fuploads%2Fthumbnail_ckik_logo1_5ddb5979c8.png&w=128&q=90\">\r\n    <!--link rel=\"stylesheet\" href=\"../../style.css\"-->\r\n    <title>CKIK - " + cim + "</title>\r\n</head>\r\n<body>\r\n    <div class=\"information\">\r\n        <header>\r\n            <h1>"+cim+"</h1>\r\n        </header>\r\n        <main>\r\n            <div class=\"container-fluid\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-12 col-sm-8 szoveg\">";
+            bool elsosor = true;
             while (!r.EndOfStream)
             {
                 string line = r.ReadLine();
@@ -86,7 +86,15 @@ namespace txthtmlbeKIALLITAS
                     }
                     else
                     {
-                        template += "                    \r\n<h2>" + bekcim + "</h2>                    \r\n<hr>                    \r\n<p>";
+                        if (elsosor==true)
+                        {
+                            template += "                   \r\n<h2>" + bekcim + "</h2>                    \r\n<hr>                    \r\n<p>";
+                            elsosor = false;
+                        }
+                        else
+                        {
+                            template += "</p>                   \r\n<h2>" + bekcim + "</h2>                    \r\n<hr>                    \r\n<p>";
+                        }
                     }
                 }
                 else if (line.Contains("|"))
@@ -101,7 +109,7 @@ namespace txthtmlbeKIALLITAS
             }
             template += "                                </tbody>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <!--<div class=\"row\"> \r\n                    <div class=\"col-12 col-sm-8\"> \r\n                        <h2>Fordította/Készítette:</h2>\r\n                            <hr>\r\n                            <p></p>    \r\n                            <h2>Forrás:</h2>\r\n                            <hr>\r\n                            <a class = \"nemtudtamkitalalnikreativnevet\" href=\"\" target=\"_blank\"></a>\r\n                    </div>\r\n                </div>-->\r\n            </div>\r\n        </main>\r\n        <p style=\"text-align: right;\">\r\n            <button type=\"button\" class=\"btn btn-secondary\" onclick=\"location.href='../fooldal/index.html';\">Vissza</button>\r\n        </p>    \r\n    </div>\t\t\r\n</body>\r\n<script src=\"../tldr.js\"></script>\r\n</html>";
             r.Close();
-            StreamWriter f = new StreamWriter(cim+".html");
+            StreamWriter f = new StreamWriter(String.Format(cim+".html"));
             f.WriteLine(template);
             f.Close();
         }
