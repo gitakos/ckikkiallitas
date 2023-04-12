@@ -1,0 +1,11 @@
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\bin\Debug\txthtmlbeKIALLITAS.exe.config
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\bin\Debug\txthtmlbeKIALLITAS.exe
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\bin\Debug\txthtmlbeKIALLITAS.pdb
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.AssemblyReference.cache
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.Form1.resources
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.Properties.Resources.resources
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.GenerateResource.cache
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.CoreCompileInputs.cache
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.exe
+C:\Users\Ákos\Desktop\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.pdb
