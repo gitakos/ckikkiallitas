@@ -12,3 +12,4 @@ A lemezolvasó teszteléséhez és beállításához a TD1r típusú tesztert ha
 Az SM5401 lemezolvasóval közös teszteket 1977 júliusában végezték.
 
 Tábla:
+ | 
