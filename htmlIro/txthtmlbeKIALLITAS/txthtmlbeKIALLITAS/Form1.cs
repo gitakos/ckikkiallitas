@@ -115,13 +115,19 @@ namespace txthtmlbeKIALLITAS
                             "<div id=\"carouselExample\" class=\"carousel slide\">\r\n                                              " +
                             "<div class=\"carousel-inner\">\r\n                                                " +
                             "<div class=\"carousel-item active\">\r\n                                                  " +
+                            "<a href=\"../kepek/szamitogep/abc80_1.JPG\" target=\"_blank\">\r\n                                                " +
                             "<img src=\"../kepek/szamitogep_alex_teszt.png\" class=\"d-block w-100\" alt=\"\" title=\"\">\r\n                                                " +
+                            "</a>\r\n                                                " +
                             "</div>\r\n                                                " +
                             "<div class=\"carousel-item\">\r\n                                                  " +
+                            "<a href=\"../kepek/szamitogep/abc80_1.JPG\" target=\"_blank\">\r\n                                                " +
                             "<img src=\"../kepek/szamitogep_alex_teszt.png\" class=\"d-block w-100\" alt=\"\" title=\"\">\r\n                                                " +
+                            "</a>\r\n                                                " +
                             "</div>\r\n                                                " +
                             "<div class=\"carousel-item\">\r\n                                                  " +
+                            "<a href=\"../kepek/szamitogep/abc80_1.JPG\" target=\"_blank\">\r\n                                                " +
                             "<img src=\"../kepek/szamitogep_alex_teszt.png\" class=\"d-block w-100\" alt=\"\" title=\"\">\r\n                                                " +
+                            "</a>\r\n                                                " +
                             "</div>\r\n                                              " +
                             "</div>\r\n                                              " +
                             "<button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExample\" data-bs-slide=\"prev\">\r\n                                                " +
@@ -177,16 +183,16 @@ namespace txthtmlbeKIALLITAS
                 "</div>\r\n                    " +
                 "</div>\r\n                " +
                 "</div>\r\n                " +
-                "<!--<div class=\"row\"> \r\n                    " +
+                "<div class=\"row\"> \r\n                    " +
                 "<div class=\"col-12 col-sm-8\"> \r\n                        " +
                 "<h2>Fordította/Készítette:</h2>\r\n                            " +
                 "<hr>\r\n                            " +
-                "<p></p>    \r\n                            " +
+                "<p>11.C osztály</p>    \r\n                            " +
                 "<h2>Forrás:</h2>\r\n                            " +
                 "<hr>\r\n                            " +
                 "<a class = \"nemtudtamkitalalnikreativnevet\" href=\"\" target=\"_blank\"></a>\r\n                    " +
                 "</div>\r\n                " +
-                "</div>-->\r\n            " +
+                "</div>\r\n            " +
                 "</div>\r\n        " +
                 "</main>\r\n        " +
                 "<p style=\"text-align: right;\">\r\n            " +
