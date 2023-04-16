@@ -103,7 +103,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Lustaság 1.0.0";
+            this.Text = "Generátor";
             this.ResumeLayout(false);
             this.PerformLayout();
 
