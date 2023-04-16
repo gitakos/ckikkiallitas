@@ -20,3 +20,14 @@ C:\Users\Ákos\Desktop\Github\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\
 C:\Users\Ákos\Desktop\Github\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.CoreCompileInputs.cache
 C:\Users\Ákos\Desktop\Github\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.exe
 C:\Users\Ákos\Desktop\Github\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.pdb
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\bin\Debug\txthtmlbeKIALLITAS.exe.config
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\bin\Debug\txthtmlbeKIALLITAS.exe
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\bin\Debug\txthtmlbeKIALLITAS.pdb
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.AssemblyReference.cache
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.SuggestedBindingRedirects.cache
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.Form1.resources
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.Properties.Resources.resources
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.GenerateResource.cache
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.csproj.CoreCompileInputs.cache
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.exe
+C:\Users\agocs\Desktop\ㅤ\Programozás\ckikkiallitas\htmlIro\txthtmlbeKIALLITAS\txthtmlbeKIALLITAS\obj\Debug\txthtmlbeKIALLITAS.pdb
